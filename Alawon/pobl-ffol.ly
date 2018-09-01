@@ -20,7 +20,7 @@ pobl_ffol_melody = \relative d' {
     b8 d b a d, d'
     b8 a g g' fis e
     d8 fis, e' d c b 
-    a8 b a d e c 
+    c8 b a d e c 
     
   }
   \alternative {
