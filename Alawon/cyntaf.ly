@@ -75,7 +75,7 @@ cyntaf_chords = \chordmode {
   e4.:7 e:7/b e:7/d e:7
   c4. d:m e2.:7
   d4.:m e2.:7
-  d4.:m e4. a8
+  d4.:m e4. a8:m
   
   a4. c d f 
   a4. c g f
