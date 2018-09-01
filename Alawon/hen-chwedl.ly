@@ -26,6 +26,7 @@ hen_chwedl_melody = \relative d' {
   }
   
   \repeat volta 2 {
+    \once \set chordChanges = ##f
     g8 e b' d16 cis
     a8 fis d4
     a'16 g fis e b' a g a 
@@ -53,7 +54,7 @@ hen_chwedl_melody = \relative d' {
     g8 a b d cis 
     b e, e g fis 
     \time 6/8
-    d' cis a e' d c 
+    d' cis a e' d cis 
     b e, e g fis d 
     \time 5/8
     d'8 cis a e' g 
@@ -76,7 +77,7 @@ hen_chwedl_melody = \relative d' {
     \time 6/8
   }
   \alternative {
-    { g8 fis e d4. }
+    { a8 g fis e4 d8 }
     { g8 fis d e4. }
   }
   \bar "|."
@@ -89,8 +90,8 @@ hen_chwedl_chords = \chordmode {
   
   s4
   e4:m g d b:m
-  c a:m d b:7
-  c g d b:m
+  c a:m d a:m
+  e:m g d b:m
   c d e2:m
   
   e2:m b:m
@@ -99,10 +100,16 @@ hen_chwedl_chords = \chordmode {
   c4 d a2:m
   
   e4.:m d g a4
-  e4.:m d4 a4. c
+  e4.:m d4 g4. a
   e4.:m d g a4
-  e4.:m d4 a4. c4 d8
+  b4.:m e4:m a4. c4 d8
   
+  e4.:m d g a4
+  e4.:m d4 a4. g
+  e4.:m d g a4
+  c4. g4
+  a4:m b8:m c4 d8
+  a4:m b8:m e4.:m
 }
 
 hen_chwedl = \score {
