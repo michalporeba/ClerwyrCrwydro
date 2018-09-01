@@ -24,6 +24,7 @@ lindysyn_melody = \relative a' {
   
   \bar "||"
   
+  \mark \markup { \musicglyph #"scripts.segno" }
   a8 g a b a g a e
   a8 g a b c4 d 
   e8 c b a d c b g 
@@ -43,7 +44,11 @@ lindysyn_melody = \relative a' {
   a a a g a cis e cis 
   fis e d c4 b8 a[ g] 
   a8 a a g a cis e cis 
-  c8 d b a4 g8 e[ g]
+  c8 d b a4 g8 e-\markup {
+    \italic "D.S."
+    \tiny \raise #0.5
+    \musicglyph #"scripts.segno"
+  }[ g]
   
   \bar "|."
   
