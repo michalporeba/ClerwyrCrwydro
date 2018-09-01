@@ -34,7 +34,7 @@ morladron_melody = \relative a' {
     c16 d e g fis4
     e16 fis g e d8 b 
     c16 d e c b8. g'16
-    fis8 b, c16 d b g 
+    fis8 b, e16 d b g 
   }
   \alternative {
     { fis16 g a d, b' a g fis}
@@ -54,7 +54,7 @@ morladron_chords = \chordmode {
   
   g2 c4 g 
   c2 d4 e:m
-  c4 e:
+  c4 e:m
   d b:m
   c4 g 
   d g
