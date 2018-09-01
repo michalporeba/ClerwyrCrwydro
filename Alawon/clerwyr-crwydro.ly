@@ -85,6 +85,7 @@ clerwyr_crwydro_chords = \chordmode {
   g a c s
   a:m d e:m s
   
+  \once \set chordChanges = ##f
   e:m d e:m s
   g a c d 
   e:m fis:m g a 
