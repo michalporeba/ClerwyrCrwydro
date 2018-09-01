@@ -44,7 +44,7 @@ brenin_jacob_melody = \relative b' {
       c'16 b c a c g fis c'
       b c a c g c fis,8
       d'16 b a b g b a b
-      d b a b g a ais b
+      d b a b gis a ais b
     }
     {
       a16 g fis e fis g a c 
@@ -53,12 +53,13 @@ brenin_jacob_melody = \relative b' {
       g16 fis e4 a8
     }
     {
+      \break
       \set Score.repeatCommands = #`((volta #f) (volta ,#{ \markup \text {"2 (tro olaf | ostatni raz)"} #}) end-repeat)
       a16 g fis e fis g a c 
       b a g fis g a b d
       e16 c b a d b a g 
       c16 a g fis a g fis d
-      g16 fis e8 ~ e8-"Fine" r
+      e4 ~ e8-"Fine" r
       
     }
   }
@@ -76,6 +77,12 @@ brenin_jacob_chords = \chordmode {
   e2:m d4 g
   c4 a:m b:m e:m
   c4 a:m b:m e:m
+  
+  a2:m c g e:m
+  a2:m c g b4:m e:7
+  
+  a2:m g c4 d a2:
+  a2:m g c4 g a:m b:m e2:m
 }
 
 brenin_jacob = \score {
