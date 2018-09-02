@@ -1,5 +1,6 @@
 \version "2.18.2"
 
+\include "Alawon/antur-newydd.ly"
 \include "Alawon/bore-mercher.ly"
 \include "Alawon/brenin-jacob.ly"
 \include "Alawon/clerwyr-crwydro.ly"
@@ -178,6 +179,7 @@
     \david_davis	\pageBreak 	% Capt. David Davis
     
     % 6/8
+    \antur_newydd 	\pageBreak 	
     \clerwyr_crwydro 	\pageBreak
     \cyntaf 		\pageBreak 	% chwibanau a chlochau
     \pobl_ffol 		\pageBreak 	% gorymdaith pobl ffol
