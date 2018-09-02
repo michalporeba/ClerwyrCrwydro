@@ -1,4 +1,4 @@
-% written early 2017?
+% 2018-08-13 / 2018-09-02
 
 polcar_haf_teitl = "Tra Bo'r Haf"
 polcar_haf_tytul = "Póki Jeszcze Lato"
