@@ -48,8 +48,7 @@ polcar_haf_melody = \relative d' {
     { fis16 g a fis d8 g16 fis}
     { fis16 g a fis e a b cis }
   }
-  
-  \bar "||"
+
   \key d \major
   
   \repeat volta 2 {
@@ -60,7 +59,7 @@ polcar_haf_melody = \relative d' {
     d16 e fis8 cis16 fis a8
     g16 a b8 e,16 a b cis-"D.C."
   }
-  \bar "|."
+  
   
   
 } %relative   
