@@ -7,13 +7,16 @@ pilipala_form = ""
 pilipala_common =  {
   \time 21/8
   \clef treble 
-  \key g \major
+  \key g \major  
 }
 
 pilipala_melody = \relative g' {
   \pilipala_common 
 
   \compoundMeter #'((9 12 8))
+  \set Score.baseMoment = #(ly:make-moment 1/8)
+  \set Score.beatStructure = #'(3 3 3 3 3 3 3)
+  
   \repeat unfold 2 {
     d8 g fis g a b a b c
     \bar "!"
@@ -63,6 +66,8 @@ pilipala_chords = \chordmode {
   g2. d4. c b:m a:m d
   g2. c4. 
   g4. c g a:m
+  b:m c d 
+  c a:m d g
 }
 
 pilipala = \score {
