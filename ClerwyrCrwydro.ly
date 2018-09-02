@@ -14,6 +14,7 @@
 \include "Alawon/pibdawns-hydrefol.ly"
 \include "Alawon/pilipala.ly"
 \include "Alawon/pobl-ffol.ly"
+\include "Alawon/polcar_haf.ly"
 
 #(define-markup-command (skip-page-number-range layout props arg) (number-list?)
   (let ((page-number (chain-assoc-get 'page:page-number props -1)))
@@ -158,6 +159,7 @@
     \brenin_jacob	\pageBreak
     \hen_chwedl		\pageBreak 
     \morladron  	\pageBreak
+    \polcar_haf		\pageBreak	% Tra bo'r haf
     
     % 2/2
     \lindysyn 		\pageBreak
