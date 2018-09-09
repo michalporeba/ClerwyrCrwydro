@@ -6,6 +6,7 @@
 \include "Alawon/clerwyr-crwydro.ly"
 \include "Alawon/cwiafiac-cwm-tawe.ly"
 \include "Alawon/cyntaf.ly"
+\include "Alawon/cysgodion.ly"
 \include "Alawon/david-davis.ly"
 \include "Alawon/disgfyd.ly"
 \include "Alawon/ffawydden.ly"
@@ -179,6 +180,9 @@
     % 4/4
     \david_davis	\pageBreak 	% Capt. David Davis
     \ffawydden		\pageBreak
+    
+    % 5/4
+    \cysgodion		\pageBreak
     
     % 6/8
     \antur_newydd 	\pageBreak 	
