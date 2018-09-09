@@ -151,7 +151,7 @@
     title = "Alawon Ffug Clerwyr Crwydro"
     subtitle = "Zmyślone Melodie Zbłąkanych Muzykantów"
     copyright = "copyleft"
-    tagline = "Drafft - Alawon Ffug Clerwyr Crwydro. Version 2018-09-02"
+    tagline = "Drafft - Alawon Ffug Clerwyr Crwydro. Version 2018-09-09"
   }
  
   \bookpart {
@@ -188,7 +188,7 @@
     
     
     % 9/8
-    %\disgfyd		\pageBreak	% y disgfyd 
+    \disgfyd		\pageBreak	% y disgfyd 
     
     % 9/8 +
   

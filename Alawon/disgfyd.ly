@@ -12,21 +12,33 @@ disgfyd_common =  {
 disgfyd_melody = \relative a'' {
   \disgfyd_common 
 
-  a4 fis8 g fis e fis4 d8
-  a'4 fis8 g fis e d4.
-  a'4 fis8 g fis e fis4 d8
-  a'4 fis8 g fis e fis e d
-  
-  e4 a,8 b cis d cis4 a8
-  a'8 g fis e d cis b cis d 
-  e4 a,8 b cis d cis4 a8
-  a'8 g fis e d cis d4. 
-  
-  
-  a'4 fis8 g a b a4 fis8
-  a4 fis8 g a b a4.
-  a4 fis8 g a b a4 fis8
-  b4 g8 g a b a g fis 
+  \repeat volta 2 {
+    a4 fis8 g fis e fis4 d8
+    a'4 fis8 g fis e d4.
+    a'4 fis8 g fis e fis4 d8
+    a'4 fis8 g fis e fis e d
+    
+    e4 a,8 b cis d cis4 a8
+    a'8 g fis e d cis b cis d 
+    e4 a,8 b cis d cis4 a8
+    a'8 g fis e d cis d4. 
+    
+    
+    a'4 fis8 g a b a4 fis8
+    a4 fis8 g a b a4.
+    a4 fis8 g a b a4 fis8
+    g4 e8 e fis g fis4.
+    
+    g4 e8 a,4 g'8 fis e d
+    e4 cis8 a4 g'8 fis4.
+    \time 6/8
+    g4 e8 a,4 g'8 fis4 d8 
+    a4 fis'8 e fis e e fis e
+  } 
+  \alternative { 
+    { b cis d e fis g }
+    { e d cis d4. }
+  }
   \bar "|."
   
 } %relative   
