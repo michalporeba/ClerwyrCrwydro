@@ -8,6 +8,7 @@
 \include "Alawon/cyntaf.ly"
 \include "Alawon/david-davis.ly"
 \include "Alawon/disgfyd.ly"
+\include "Alawon/ffawydden.ly"
 \include "Alawon/hen-chwedl.ly"
 \include "Alawon/lindysyn.ly"
 \include "Alawon/mor-ladron.ly"
@@ -177,6 +178,7 @@
     
     % 4/4
     \david_davis	\pageBreak 	% Capt. David Davis
+    \ffawydden		\pageBreak
     
     % 6/8
     \antur_newydd 	\pageBreak 	
@@ -186,7 +188,8 @@
     
     
     % 9/8
-    \disgfyd		\pageBreak	% y disgfyd 
+    %\disgfyd		\pageBreak	% y disgfyd 
+    
     % 9/8 +
   
     \pilipala 		\pageBreak 	% hela'r pili pala
