@@ -1,5 +1,6 @@
 \version "2.18.2"
 
+\include "Alawon/amser.ly"
 \include "Alawon/antur-newydd.ly"
 \include "Alawon/bore-mercher.ly"
 \include "Alawon/brenin-jacob.ly"
@@ -11,6 +12,7 @@
 \include "Alawon/disgfyd.ly"
 \include "Alawon/ffawydden.ly"
 \include "Alawon/hen-chwedl.ly"
+\include "Alawon/igam-ogam.ly"
 \include "Alawon/lindysyn.ly"
 \include "Alawon/mor-ladron.ly"
 \include "Alawon/organ-dro.ly"
@@ -152,7 +154,7 @@
     title = "Alawon Ffug Clerwyr Crwydro"
     subtitle = "Zmyślone Melodie Zbłąkanych Muzykantów"
     copyright = "copyleft"
-    tagline = "Drafft - Alawon Ffug Clerwyr Crwydro. Version 2018-09-09"
+    tagline = "Drafft - Alawon Ffug Clerwyr Crwydro. Version 2018-11-18"
   }
  
   \bookpart {
@@ -178,8 +180,10 @@
     \organ_dro_ail	\pageBreak
     
     % 4/4
+    \amser		\pageBreak
     \david_davis	\pageBreak 	% Capt. David Davis
     \ffawydden		\pageBreak
+    \igam_ogam		\pageBreak
     
     % 5/4
     \cysgodion		\pageBreak
