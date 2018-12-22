@@ -84,10 +84,16 @@
       \fill-line {
         \center-column {
           
-          \vspace #8
-          \line { \fontsize #8 \override #'(font-name . "FoglihtenNo07") \fromproperty #'header:title }
-          \vspace #1
-          \line { \fontsize #6 \override #'(font-name . "FoglihtenNo04") \fromproperty #'header:subtitle }
+          \vspace #7
+          % \line { \fontsize #8 \override #'(font-name . "FoglihtenNo07") \fromproperty #'header:title }
+          \line { \fontsize #8 \override #'(font-name . "FoglihtenNo07") "Alawon Ffug" }
+          \vspace #0.5
+          \line { \fontsize #8 \override #'(font-name . "FoglihtenNo07") "Clerwyr Crwydro" }
+          \vspace #1.5
+          %\line { \fontsize #6 \override #'(font-name . "FoglihtenNo04") \fromproperty #'header:subtitle }
+          \line { \fontsize #6 \override #'(font-name . "FoglihtenNo04") "Zbłąkanych Muzykantów" }
+          \vspace #0.5
+          \line { \fontsize #6 \override #'(font-name . "FoglihtenNo04") "Zmyślone Melodie" }
           \vspace #8
           \line { \fontsize #3 \typewriter { drafft / szkic } }
         }
