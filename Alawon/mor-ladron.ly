@@ -27,9 +27,12 @@ morladron_melody = \relative a' {
     }
   }
   
+  \bar "||"
+  e8 b' \tuplet 3/2 { a g fis } 
+  g8 d'16 c b4\fermata
+    
   \repeat volta 2 {
-    e8 b' \tuplet 3/2 { a g fis } 
-    g8 c b4
+    
     e16 fis g e d8 b
     c16 d e g fis4
     e16 fis g e d8 b 
@@ -37,7 +40,11 @@ morladron_melody = \relative a' {
     fis8 b, e16 d b g 
   }
   \alternative {
-    { fis16 g a d, b' a g fis}
+    { 
+      fis16 g a d, b' a g fis
+      e8 b' \tuplet 3/2 { a g fis } 
+      g8 c b4
+    }
     { fis16 g a d, g8 fis-"D.C." }
   }
   \bar "|."
@@ -61,13 +68,17 @@ morladron_chords = \chordmode {
   d b:7
   
   e4:m d/e
-  c/e g
-  e:m b:m
+  c8/e c/a g/a g
+  e4:m b:m
   c d
   e:m b:m 
   a:m g
   d c 
   d b:7
+  
+  e4:m d/e
+  c/e g
+  
   d g
 
 \once \set chordChanges = ##f
