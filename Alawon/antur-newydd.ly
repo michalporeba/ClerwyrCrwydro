@@ -33,7 +33,7 @@ antur_newydd_melody = \relative d' {
   
     d'4 b8 c e 
     \bar "!"
-    d4 b8 c4 a8
+    d4 b8 c8 a4
     d4 b8 c e 
     \bar "!" 
     d8 b g d \breathe e d 
