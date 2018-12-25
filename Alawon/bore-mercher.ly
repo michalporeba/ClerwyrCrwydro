@@ -8,14 +8,10 @@ bore_mercher_form = "A B A B C A B Coda"
 
 bore_mercher_common =  {
   \time 3/4
-  \clef treble 
   \key g \major
 }
 
-bore_mercher_melody = \relative c' {
-  \bore_mercher_common 
-  
-  \bar "[|:"
+bore_mercher_part_a_lh = {
   \repeat volta 2 {
     d4 g g g2 b8 a g4 fis e d g g fis2 g8 a b4 g a
     d,4 g g fis2 g8 a b4 g e c' b a 
@@ -24,7 +20,31 @@ bore_mercher_melody = \relative c' {
     { g8 b4. g4 fis e fis }
     { g8 b4. b4 a g fis }
   }
-   
+}
+
+bore_mercher_part_b_lh = {
+  \repeat volta 2 {
+    e8 c'4. d4 b a g e'4. c8 a4 d bes g a f c' c b g
+    e4 g g g4. a8 fis4 g b d b4. a8 g4 
+  }
+  \alternative {
+    { a fis2 g2 d4 }
+    { a'2 fis4 g2 ais8 b }
+  }
+}
+
+bore_mercher_part_c_lh = {
+  g'2 b,8 g' fis4. e8 d a b4 e fis d2 g,4 e'4. d8 c g d'4 b4. a8 b c a4 g a4. b8 d, d'
+  g2 b,4 a'16 as g8 fis d b a
+  \tuplet 3/2 { a8 ais b } g='4 e e2 fis4
+}
+
+bore_mercher_melody = \relative c' {
+  \bore_mercher_common 
+  \clef treble 
+  
+  \bar "[|:"
+  \bore_mercher_part_a_lh 
   \bar "||"
   %\break
     e8 c'4. d4 b a g e'4. c8 a4 d bes g a f c' c b g
@@ -35,10 +55,9 @@ bore_mercher_melody = \relative c' {
   
   \acciaccatura  { ais8 b }
   
-  g'2 b,8 g' fis4. e8 d a b4 e fis d2 g,4 e'4. d8 c g d'4 b4. a8 b c a4 g a4. b8 d, d'
-  g2 b,4 a'16 as g8 fis d b a
+  \bore_mercher_part_c_lh 
   
-  \tuplet 3/2 { a8 ais b } g='4 e e2 fis4
+  
    
   %\bar "||"
   %\break
@@ -52,8 +71,18 @@ bore_mercher_melody = \relative c' {
   \bar "|."
 }
 
+bore_mercher_accordion_rh = \relative c' {
+  \bore_mercher_common 
+  \clef treble 
+  
+  \bore_mercher_part_a_lh 
+  \bore_mercher_part_b_lh
+  
+}
+
 bore_mercher_ail_melody = \relative c'' {
   \bore_mercher_common
+  \clef treble 
   
   \bar "[|:"
   \repeat volta 2 {
@@ -101,6 +130,53 @@ bore_mercher_chords = \chordmode {
   a:m7 d e:m d c d
 }
 
+bore_mercher_accordion_lh = \relative g, {
+  \bore_mercher_common
+    \clef bass
+
+  % part a
+  g4_"G" <g' b d>^"g" <g b d>
+  d,4_"D" <fis' a d>^"d" <fis a d>
+  e,4_"E" <e g b>^"em" <e g b>
+  c4_"C" <e' g c>^"c" <e g c>
+  d,4_"D" <fis' a d>^"d" r
+  g,4_"G" <g' b d>^"g" <fis a d>^"d"
+  
+  g,4_"G" <g' b d>^"g" <g b d>
+  d,4_"D" <fis' a d>^"d" <fis a d>
+  e,4_"E" <e' g b>^"em" <e g b>
+  c4_"C" <e g c>^"c" <e g c>
+  g,4_"G" <g' b d>^"g" <g b d>
+  d,4_"D" <fis' a d>^"d" <fis a d>
+  
+  g,4_"G" <g' b d>^"g" <g b d>
+  d,4_"D" <fis' a d>^"d" <fis a d>
+  
+  % part b
+  
+  a,4_"A" <e' a c>^"am" <e a c>
+  e,4_"E" <e' g b>^"em" <e g b>
+  f,4_"F" <e' f a c>^"f/am" <e f a c>
+  c4_"C" <es g bes c d>^"cm/gm" <es g bes c d>
+  d,4_"D" <f' a c d>^"dm/f" <f a c d>
+  <g,c>_"G/C" <d' g b>^"g" <d g b>
+  
+  c4_"C" <e g c>^"c" <e g c>
+  d,4_"D" <fis' a d>^"d" <fis a d>
+  e,4_"E" <e' g b>^"em" <e g b>
+  c4_"C" <e g c>^"c" <e g c>
+  d,4_"D" <fis' a d>^"d" <fis a d>
+  g,4_"G" <g' b d>^"g" r
+  
+  d,4_"D" <fis' a d>^"d" <fis a d>
+  g,4_"G" <g' b d>^"g" r
+  
+  % part c
+  
+  
+  % part d
+}
+
 bore_mercher = \score {
     \header { 
       teitl = \bore_mercher_teitl
@@ -113,7 +189,7 @@ bore_mercher = \score {
     >>
   } %score
   
-  
+
   
 bore_mercher_ail = \score {
     \header { 
@@ -126,3 +202,19 @@ bore_mercher_ail = \score {
       \new Staff { \bore_mercher_ail_melody }
     >>
   } %score
+
+bore_mercher_accordion = \score {
+  \header {
+      teitl = \bore_mercher_teitl
+      tytul = \bore_mercher_tytul
+      composer = "Clerwyr Crwydro"
+  }
+  \new PianoStaff <<
+    \new Staff { 
+      \bore_mercher_accordion_rh 
+    }
+    \new Staff {
+      \bore_mercher_accordion_lh
+    }
+  >>
+} % score
