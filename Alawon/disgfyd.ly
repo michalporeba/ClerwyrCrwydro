@@ -37,14 +37,57 @@ disgfyd_melody = \relative a'' {
   } 
   \alternative { 
     { b cis d e fis g }
-    { e d cis d4. }
+    { e d cis d4.-"Fine." }
   }
+  
+  \bar "||"
+  
+  {
+    \time 9/8
+    fis4 b,8 e d cis d4 b8
+    fis'4 b,8 cis d e fis4. 
+    a4 fis8 g fis e fis e b
+    
+    \time 6/8
+    a8 b cis d4 cis8 
+    b4. a
+  }
+  
   \bar "|."
   
 } %relative   
 
 disgfyd_chords = \chordmode {
   \disgfyd_common
+  
+  d4. a d 
+  d g d
+  d a b:m
+  fis:m g d
+  
+  a g a
+  g a g
+  a g a
+  c a d
+  
+  d g d 
+  d g d
+  d g d 
+  e:m a d
+  
+  g a d
+  g a d
+  g a 
+  b:m fis:m
+  e:m a g a
+  g4 a8 d4.
+  
+  b4.:m a g 
+  e:m a d
+  b4.:m a g 
+  
+  e4.:m a 
+  g a
   
   
 }
