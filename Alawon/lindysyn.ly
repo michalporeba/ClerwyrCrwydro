@@ -38,10 +38,10 @@ lindysyn_melody = \relative a' {
   \key d \major 
   
   e8 a a g a cis e cis 
-  d8 cis a c4 g8 d'[ e]
+  d8 cis? a c4 g8 d'[ e]
   cis8 a a g a cis e cis 
   d c b a4 g8 e[ g]
-  a a a g a cis e cis 
+  a a a g a cis? e cis 
   fis e d c4 b8 a[ g] 
   a8 a a g a cis e cis 
   c8 d b a4 g8 e-\markup {
