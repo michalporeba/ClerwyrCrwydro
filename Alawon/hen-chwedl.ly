@@ -94,6 +94,7 @@ hen_chwedl_chords = \chordmode {
   e:m g d b:m
   c d e2:m
   
+  \once \set chordChanges = ##f
   e2:m b:m
   c4 d c d 
   e2:m b:m
