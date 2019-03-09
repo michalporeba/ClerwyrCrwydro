@@ -98,6 +98,7 @@ organ_dro_chords = \chordmode {
   e2.:m e:m a:m d 
   c a:m d e:m e:m
   
+  \once \set chordChanges = ##f
   e2:m d4 g2.
   g2 c4 g2 a4:m 
   e2:m d4 c2.
