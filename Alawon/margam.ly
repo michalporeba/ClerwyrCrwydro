@@ -33,21 +33,23 @@ margam_melody = \relative c'' {
     }
     {
       d2 r16 es g d'
+      es8 d c~ c4.~
+      c2.
     }
   }
   
   \bar "||"
   
-  es8 d c es d c 
+  es8 d8. c16 es8 d c 
   bes as? g g4. 
   c8 bes as? g f es 
   g as g g4 g8 
-  f8 as f~ f4 a8 
-  bes8 c b~ b4 b8 
-  c8 d c~ c4 es8 
+  f8 g f~ f4 a8 
+  bes8 c bes~ bes4 bes8 
+  c8 d c c4 es8 
   d4. g, 
   
-  es'8 d c g' f es 
+  es'8 d8. c16 g'8 f es 
   d8 c bes g4. 
   c8 bes as g f es 
   g8 as g~ g4 g8
@@ -80,7 +82,10 @@ margam_chords = \chordmode {
   c:m
   
   g
+  c:m
+  c:m
   
+  \once \set chordChanges = ##f
   c:m 
   g:m 
   as
