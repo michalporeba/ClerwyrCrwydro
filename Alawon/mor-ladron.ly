@@ -72,7 +72,7 @@ morladron_chords = \chordmode {
   e4:m b:m
   c d
   e:m b:m 
-  a:m g
+  c g
   d c 
   d b:7
   
