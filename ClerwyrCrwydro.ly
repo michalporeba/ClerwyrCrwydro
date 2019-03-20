@@ -3,6 +3,7 @@
 \include "Alawon/amser.ly"
 \include "Alawon/antur-newydd.ly"
 \include "Alawon/bore-mercher.ly"
+\include "Alawon/bran-ai-marchog.ly"
 \include "Alawon/brenin-jacob.ly"
 \include "Alawon/clerwyr-crwydro.ly"
 \include "Alawon/cwiafiac-cwm-tawe.ly"
@@ -10,16 +11,20 @@
 \include "Alawon/cysgodion.ly"
 \include "Alawon/david-davis.ly"
 \include "Alawon/disgfyd.ly"
+\include "Alawon/dwy-gwanwyn.ly"
 \include "Alawon/ffawydden.ly"
 \include "Alawon/hen-chwedl.ly"
 \include "Alawon/igam-ogam.ly"
 \include "Alawon/lindysyn.ly"
+\include "Alawon/margam.ly"
 \include "Alawon/mor-ladron.ly"
+\include "Alawon/nos-da.ly"
 \include "Alawon/organ-dro.ly"
 \include "Alawon/pibdawns-hydrefol.ly"
 \include "Alawon/pilipala.ly"
 \include "Alawon/pobl-ffol.ly"
 \include "Alawon/polcar_haf.ly"
+
 
 #(define-markup-command (skip-page-number-range layout props arg) (number-list?)
   (let ((page-number (chain-assoc-get 'page:page-number props -1)))
@@ -63,6 +68,7 @@
     first-page-number = -1
     
     ragged-bottom = ##t
+    % ragged-last = ##t
     
     % two-sided = ##t
     
@@ -160,7 +166,7 @@
     title = "Alawon Ffug Clerwyr Crwydro"
     subtitle = "Zmyślone Melodie Zbłąkanych Muzykantów"
     copyright = "copyleft"
-    tagline = "Drafft - Alawon Ffug Clerwyr Crwydro. Version 2019-02-14"
+    tagline = "Drafft - Alawon Ffug Clerwyr Crwydro. Fersiwn 2019-03-20."
   }
  
   \bookpart {
@@ -168,6 +174,7 @@
     
     % 2/4
     \brenin_jacob	\pageBreak
+    \dwy_gwanwyn	\pageBreak
     \hen_chwedl		\pageBreak 
     \morladron  	\pageBreak
     \polcar_haf		\pageBreak	% Tra bo'r haf
@@ -182,11 +189,14 @@
     
     \cwiafiac		\pageBreak 
     
+    \nos_da 		\pageBreak
+    
     \organ_dro 		\pageBreak
     \organ_dro_ail	\pageBreak
     
     % 4/4
     \amser		\pageBreak
+    \bran		\pageBreak
     \david_davis	\pageBreak 	% Capt. David Davis
     \ffawydden		\pageBreak
     \igam_ogam		\pageBreak
@@ -198,17 +208,14 @@
     \antur_newydd 	\pageBreak 	
     \clerwyr_crwydro 	\pageBreak
     \cyntaf 		\pageBreak 	% chwibanau a chlochau
+    \margam		\pageBreak
     \pobl_ffol 		\pageBreak 	% gorymdaith pobl ffol
-    
     
     % 9/8
     \disgfyd		\pageBreak	% y disgfyd 
     
     % 9/8 +
-  
     \pilipala 		\pageBreak 	% hela'r pili pala
-    
-    
     
   } %bookpart
 } %book
