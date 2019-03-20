@@ -9,6 +9,7 @@
 \include "Alawon/cwiafiac-cwm-tawe.ly"
 \include "Alawon/cyntaf.ly"
 \include "Alawon/cysgodion.ly"
+\include "Alawon/dafydd-di-doeth.ly"
 \include "Alawon/david-davis.ly"
 \include "Alawon/disgfyd.ly"
 \include "Alawon/dwy-gwanwyn.ly"
@@ -24,7 +25,6 @@
 \include "Alawon/pilipala.ly"
 \include "Alawon/pobl-ffol.ly"
 \include "Alawon/polcar_haf.ly"
-
 
 #(define-markup-command (skip-page-number-range layout props arg) (number-list?)
   (let ((page-number (chain-assoc-get 'page:page-number props -1)))
@@ -193,6 +193,8 @@
     
     \organ_dro 		\pageBreak
     \organ_dro_ail	\pageBreak
+    
+    \dafydd		\pageBreak
     
     % 4/4
     \amser		\pageBreak
