@@ -4,6 +4,7 @@ bran_teitl = "Y Frân a'i Marchog"
 bran_tytul = "Kruk i jego rycerz"
 
 bran_common =  {
+  \numericTimeSignature
   \time 4/4
   \clef treble 
   \key b \minor

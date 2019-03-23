@@ -4,6 +4,7 @@ ffawydden_teitl = "Ffawydden"
 ffawydden_tytul = "Buczyna"
 
 ffawydden_common =  {
+  \numericTimeSignature
   \time 4/4
   \clef treble 
   \key g \minor

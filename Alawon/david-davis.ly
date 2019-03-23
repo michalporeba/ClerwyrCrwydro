@@ -5,6 +5,7 @@ david_davis_teitl = "Capt. David Davis"
 david_davis_tytul = "Kpt. David Davis"
 
 david_davis_common =  {
+  \numericTimeSignature
   \time 4/4
   \clef treble 
   \key d \major

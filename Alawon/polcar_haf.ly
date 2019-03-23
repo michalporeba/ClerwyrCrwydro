@@ -70,7 +70,7 @@ polcar_haf_chords = \chordmode {
   
    d2 g4 a 
    d2 g4 a 
-   b4:m7 d g d 
+   d2 g4 d 
    g4 d e:m a 
    g4 d g8 a d4
    g4 d g4 a d2

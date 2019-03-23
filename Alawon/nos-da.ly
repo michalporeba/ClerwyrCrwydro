@@ -13,7 +13,7 @@ nos_da_melody = \relative f' {
   \repeat volta 2 {
     a2.~ a2 bes8 a
     g4 f d  
-    c2. f r2 g4
+    c2. f~ f4 r g
     
     a2. g4 fis a 
     g2. d2 f?4
@@ -28,13 +28,13 @@ nos_da_melody = \relative f' {
     { 
       a4 g f a g f 
       d4 c bes e2 f4 
-      c2.~ c
+      c2.~ c4 r bes
     }
     { 
       %\break
       a'4 g f c bes a 
       d2. e2 c4 
-      f2.~ f-"Fine"
+      f2.~ f4-"Fine" r2
     }
   }
   
@@ -44,7 +44,7 @@ nos_da_melody = \relative f' {
     c2 f4 g f2 
     es4 des c bes as bes 
     c2 f4 g, f2
-    es'4 des c bes as bes
+    es'4 des c bes4. as8 bes4
     c2 des4 des c2
     es4 des c bes bes as
   }

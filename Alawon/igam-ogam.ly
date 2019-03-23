@@ -4,6 +4,7 @@ igam_ogam_teitl = "Igam Ogam"
 igam_ogam_tytul = "Trochę tu, trochę tam"
 
 igam_ogam_common =  {
+  \numericTimeSignature
   \time 4/4
   \clef treble 
   \key g \major

@@ -4,6 +4,7 @@ amser_teitl = "Amser"
 amser_tytul = "Czas"
 
 amser_common =  {
+  \numericTimeSignature
   \time 4/4
   \clef treble 
   \key a \minor

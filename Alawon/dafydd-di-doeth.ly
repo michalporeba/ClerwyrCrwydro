@@ -21,7 +21,7 @@ dafydd_melody = \relative g' {
     
     \time 3/4
     
-    g8 g d d g e 
+    g8 g16 g d8 d g e 
     \time 4/4 
     fis8 d d d d2
 
