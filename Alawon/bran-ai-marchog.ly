@@ -4,7 +4,6 @@ bran_teitl = "Y Frân a'i Marchog"
 bran_tytul = "Kruk i jego rycerz"
 
 bran_common =  {
-  \numericTimeSignature
   \time 4/4
   \clef treble 
   \key b \minor
@@ -12,7 +11,8 @@ bran_common =  {
 
 bran_melody = \relative g' {
   \bran_common 
-
+  \numericTimeSignature
+  
   \repeat volta 2 {
       g16 b d e cis8 a cis a16 cis b8 g
       d16 g b d e cis a cis d cis b a b8 d

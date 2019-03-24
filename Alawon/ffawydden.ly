@@ -4,7 +4,6 @@ ffawydden_teitl = "Ffawydden"
 ffawydden_tytul = "Buczyna"
 
 ffawydden_common =  {
-  \numericTimeSignature
   \time 4/4
   \clef treble 
   \key g \minor
@@ -13,7 +12,8 @@ ffawydden_common =  {
 
 ffawydden_melody = \relative bes' {
   \ffawydden_common 
-
+  \numericTimeSignature
+  
   bes8 a 
   g8 d d16 c d8 ~ d4 d16 es f d 
   c8 c16 bes c4 ~ c8 c' bes a

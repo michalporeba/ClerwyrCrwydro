@@ -4,7 +4,6 @@ amser_teitl = "Amser"
 amser_tytul = "Czas"
 
 amser_common =  {
-  \numericTimeSignature
   \time 4/4
   \clef treble 
   \key a \minor
@@ -12,7 +11,8 @@ amser_common =  {
 
 amser_melody = \relative g' {
   \amser_common 
-
+  \numericTimeSignature
+  
   \repeat volta 2 {
       a8 a c16 b c d e8 d c4
       d8 e d16 c a c b8 g e4

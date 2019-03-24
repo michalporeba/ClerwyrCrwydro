@@ -5,7 +5,6 @@ david_davis_teitl = "Capt. David Davis"
 david_davis_tytul = "Kpt. David Davis"
 
 david_davis_common =  {
-  \numericTimeSignature
   \time 4/4
   \clef treble 
   \key d \major
@@ -14,7 +13,8 @@ david_davis_common =  {
 
 david_davis_melody = \relative d' {
   \david_davis_common 
-
+  \numericTimeSignature
+  
   \repeat volta 2 {
     d16 e
     fis8 a a8. a16 d8 d, d16 cis d e 

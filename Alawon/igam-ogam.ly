@@ -4,7 +4,6 @@ igam_ogam_teitl = "Igam Ogam"
 igam_ogam_tytul = "Trochę tu, trochę tam"
 
 igam_ogam_common =  {
-  \numericTimeSignature
   \time 4/4
   \clef treble 
   \key g \major
@@ -12,7 +11,8 @@ igam_ogam_common =  {
 
 igam_ogam_melody = \relative g' {
   \igam_ogam_common 
-
+  \numericTimeSignature
+  
   g16 d g a b g b d c b a c b8 g 
   g16 d g a b g b d c b a c b8 a16 g
   a16 b c8 b16 a g8 a16 b a g fis8 d
