@@ -25,6 +25,7 @@
 \include "Alawon/pilipala.ly"
 \include "Alawon/pobl-ffol.ly"
 \include "Alawon/polcar_haf.ly"
+\include "Alawon/rwmba.ly"
 
 #(define-markup-command (skip-page-number-range layout props arg) (number-list?)
   (let ((page-number (chain-assoc-get 'page:page-number props -1)))
@@ -166,10 +167,39 @@
     title = "Alawon Ffug Clerwyr Crwydro"
     subtitle = "Zmyślone Melodie Zbłąkanych Muzykantów"
     copyright = "copyleft"
-    tagline = "Drafft - Alawon Ffug Clerwyr Crwydro. Fersiwn 2019-03-20."
+    tagline = "Drafft - Alawon Ffug Clerwyr Crwydro. Fersiwn 2019-03-26."
   }
  
   \bookpart {
+    \pageBreak
+    
+%      \markup { 
+ %     
+ %       \fill-line {
+ %         \center-column {
+ %           \vspace #1 \line { "..." }
+ %         }
+ %       }
+ %     }
+ %     \markup {
+ %       \fill-line {
+ %         \left-column {  
+ %           \vspace #1
+ %           \typewriter \wordwrap { "Ers ganrifoedd mae
+%clerwyr yn teithio o dre i dre, 
+%drwy'r goroesi gwledydd, traddodiad ac amser. Sawl wedi crwydro." }
+ %         }
+ %         \left-column {  
+ %           \vspace #1
+ %           \typewriter \wordwrap { "center" }
+ %         }
+ %         \left-column {  
+ %           \vspace #1
+ %           \typewriter \wordwrap { "abcd" }
+ %         }
+ %       }
+%   }
+    
     \pageBreak
     
     % 2/4
@@ -178,6 +208,7 @@
     \hen_chwedl		\pageBreak 
     \morladron  	\pageBreak
     \polcar_haf		\pageBreak	% Tra bo'r haf
+    \rwmba		\pageBreak
     
     % 2/2
     \lindysyn 		\pageBreak
