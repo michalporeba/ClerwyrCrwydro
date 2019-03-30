@@ -22,19 +22,19 @@ nos_da_melody = \relative f' {
     c2 d8 c a4 g f 
     bes2 c4 d2 e4
     f2.~ f4 g f 
-
+    a4 g f
   }
   \alternative {
     { 
-      a4 g f a g f 
+      a g f 
       d4 c bes e2 f4 
       c2.~ c4 r bes
     }
     { 
       %\break
-      a'4 g f c bes a 
+      c bes a 
       d2. e2 c4 
-      f2.~ f4-"Fine" r2
+      f2.~ f4 r2
     }
   }
   
@@ -47,19 +47,40 @@ nos_da_melody = \relative f' {
     es'4 des c bes4. as8 bes4
     c2 des4 des c2
     es4 des c bes bes as
+    c2. 
   }
   \alternative {
     {
-      c2. f,2 g8 as 
+      f,2 g8 as 
       bes4 as g g as bes
     }
     {
-      c2. f,2.
-      bes2. e,4-"D.C. al Fine" f g
+      f2.
+      bes2. e,4 f g-"D.C."
     }
   }
   
   \bar "|."
+  \key f \major   
+  \once \override Score.RehearsalMark.font-size = #5
+  \mark \markup { \musicglyph #"scripts.coda" }
+  a2. ~ a2 bes8 a 
+  g4 f g a2. 
+  c,2. ~ c4 f g 
+  a2 d4 c a g 
+  bes2 a4 d bes a 
+  g2. ~ g4 a bes
+  
+  c2 d8 c a4 g f 
+  bes2 c4 d2 e4
+  f2.~ f4 g f 
+  a4 g f c bes a 
+  d2. e2 g4 
+  f2.~ f2. ~ f4 r2
+  
+  \bar "|."
+  
+  
 }
 
 nos_da_chords = \chordmode {
@@ -78,7 +99,7 @@ nos_da_chords = \chordmode {
   bes2. bes
   c2. c 
   
-  f2. f 
+  f2. 
   bes2. c
   f2. f
   
@@ -91,8 +112,23 @@ nos_da_chords = \chordmode {
   as2. des 
   bes2.:m c
   
-  as2. des
+  des2.
   es2. c
+  
+  f2. f g:m 
+  f2. f g:m 
+  d2.:m a:m 
+  g2.:m g:m 
+  c2. c
+  
+  f2. es 
+  bes2. bes
+  g2.:dim7 g:dim7
+  
+  f2. f 
+  bes2. c
+  f2. f
+  
   
 }
 
