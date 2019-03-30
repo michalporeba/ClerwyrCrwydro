@@ -56,24 +56,36 @@ rwmba_melody = \relative g' {
   
   \bar "||"
   
-  \repeat volta 2 {
+  \repeat volta 3 {
     g8 b,16 g'~ g g, a b 
     d8 e16 d~ d4
     e16 g g e d c b a 
     d4 ~ d16 \breathe gis, a b 
     c16 e g e fis a a d, 
-    b'16 g fis e d c b c 
-    a16 b c d b a g fis
+    
   }
   \alternative {
-    { g4 ~g16 \breathe g'16 g fis }
-    { g2 }
+    { 
+      b'16 g fis e b' c b g 
+      e8. g16 ~ g fis d a
+      b4~ b16 \breathe g'16 g fis 
+    }
+    { 
+      b16 g fis e d c b c 
+      a16 b c d b a g fis
+      g4 ~g16 \breathe d16 g a 
+    }
+    {
+      \set Score.repeatCommands = #`((volta #f) (volta ,#{ \markup \text {"2 (tro olaf | ostatni raz)"} #}) end-repeat)
+      b'16 g fis e d c b c 
+      a16 b c d d e fis a 
+      g8. g,16 g'
+    }
   }
   
   
   
-  \bar "|."
-  
+  \bar "|." 
   
   
 } %relative   
@@ -91,6 +103,7 @@ rwmba_chords = \chordmode {
   e:m 
   c4 d 
   g2
+  \once \set chordChanges = ##f
   g
   
   a4:m d 
@@ -112,7 +125,16 @@ rwmba_chords = \chordmode {
   g4 c
   a4:m d 
   g2
+  
+  \once \set chordChanges = ##f
+  g4 c 
+  a4:m d 
   g2
+  
+  \once \set chordChanges = ##f
+  g4 c 
+  a4:m d 
+  g4 g16
   
 }
 
