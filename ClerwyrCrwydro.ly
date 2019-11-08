@@ -10,6 +10,7 @@
 \include "Alawon/cyntaf.ly"
 \include "Alawon/cysgodion.ly"
 \include "Alawon/dafydd-di-doeth.ly"
+\include "Alawon/dagrau-robin.ly"
 \include "Alawon/david-davis.ly"
 \include "Alawon/disgfyd.ly"
 \include "Alawon/dwy-gwanwyn.ly"
@@ -168,7 +169,7 @@
     title = "Alawon Ffug Clerwyr Crwydro"
     subtitle = "Zmyślone Melodie Zbłąkanych Muzykantów"
     copyright = "copyleft"
-    tagline = "Drafft - Alawon Ffug Clerwyr Crwydro. Fersiwn 2019-04-06."
+    tagline = "Drafft - Alawon Ffug Clerwyr Crwydro. Fersiwn 2019-11-08."
   }
  
   \bookpart {
@@ -205,6 +206,7 @@
     
     % 2/4
     \brenin_jacob	\pageBreak
+    \dagrau_robin	\pageBreak
     \dwy_gwanwyn	\pageBreak
     \hen_chwedl		\pageBreak 
     \morladron  	\pageBreak
