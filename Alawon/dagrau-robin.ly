@@ -1,7 +1,7 @@
 % written early 2019-11-05
 
 dagrau_robin_teitl = "Dagrau Robin"
-dagrau_robin_tytul = "Łzy Robina"
+dagrau_robin_tytul = "Robinie Łzy"
 
 dagrau_robin_common =  {
   \time 2/4

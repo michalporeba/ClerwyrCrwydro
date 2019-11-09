@@ -5,6 +5,7 @@
 \include "Alawon/bore-mercher.ly"
 \include "Alawon/bran-ai-marchog.ly"
 \include "Alawon/brenin-jacob.ly"
+\include "Alawon/bron-llon.ly"
 \include "Alawon/clerwyr-crwydro.ly"
 \include "Alawon/cwiafiac-cwm-tawe.ly"
 \include "Alawon/cyntaf.ly"
@@ -169,7 +170,7 @@
     title = "Alawon Ffug Clerwyr Crwydro"
     subtitle = "Zmyślone Melodie Zbłąkanych Muzykantów"
     copyright = "copyleft"
-    tagline = "Drafft - Alawon Ffug Clerwyr Crwydro. Fersiwn 2019-11-08."
+    tagline = "Drafft - Alawon Ffug Clerwyr Crwydro. Fersiwn 2019-11-09."
   }
  
   \bookpart {
@@ -206,6 +207,7 @@
     
     % 2/4
     \brenin_jacob	\pageBreak
+    \bron_llon		\pageBreak
     \dagrau_robin	\pageBreak
     \dwy_gwanwyn	\pageBreak
     \hen_chwedl		\pageBreak 
