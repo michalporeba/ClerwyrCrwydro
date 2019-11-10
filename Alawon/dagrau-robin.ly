@@ -12,27 +12,28 @@ dagrau_robin_common =  {
 dagrau_robin_melody = \relative d' {
   \dagrau_robin_common 
  
-  d8 f a d 
-  c8 bes16 a g8 f 
-  e8 f g e 
-  d4 d4
+  \repeat volta 2 {
+    d8 f a d 
+    c8 bes16 a g8 f 
+    e8 f g e 
+    d4 d4
+    
+    d8 f a d
+    c bes16 a g8 f 
+    e8 f g a 
+    f4 a4
+    
+    d,8 f a c
+    bes8 bes16 a g8 f 
+    e8 f g c 
+    a4 g4
+    
+    d8 f a c
+    bes8 bes16 a g8 f 
+    e8 f g e 
+    d4 d 
+  }
   
-  d8 f a c
-  bes8 bes16 a g8 f 
-  e8 f g e 
-  f4 a4
-  
-  d,8 f a c
-  bes8 bes16 a g8 f 
-  e8 f g c 
-  a4 g4
-  
-  d8 f a d
-  c8 bes16 a g8 f 
-  e8 f g e 
-  d4 d4
-  
-  \bar "||"
   
   cis8 e g8. e16 
   d8 f a f 

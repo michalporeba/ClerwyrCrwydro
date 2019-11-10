@@ -36,7 +36,7 @@ rwmba_melody = \relative g' {
   \bar "||"
   
   \repeat volta 2 {
-    c8. a16 fis'16 e8 d16 
+    c8. g16 fis'16 e8 d16 
     b8 d ~ d16 g, a b 
     c8 c16 b \tuplet 3/2 { a8 b c } 
     cis8. d16 ~ d \breathe g, b d 
@@ -67,7 +67,7 @@ rwmba_melody = \relative g' {
   \alternative {
     { 
       b'16 g fis e b' c b g 
-      e8. g16 ~ g fis d a
+      e16 fis g a g fis e d
       b4~ b16 \breathe g'16 g fis 
     }
     { 
@@ -110,7 +110,7 @@ rwmba_chords = \chordmode {
   g2 
   a4:m d 
   g2 
-  a4:m d 
+  c4 d 
   g4 e
   a4:m d 
   g2 

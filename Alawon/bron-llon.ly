@@ -42,7 +42,7 @@ bron_llon_melody = \relative a' {
       g8 g16 a bes8 g 
       a8 d d4
     }
-    g,8 d'4 g8
+    bes8 d4 g8
     f8 d  e16 d c8 
   }
   \alternative {
@@ -84,10 +84,12 @@ bron_llon_melody = \relative a' {
     g8 bes d bes
     c16 bes a8 bes16 a g fis 
   }
-  g8 bes d g
-  f16 es d c bes a g fis 
+  \repeat volta 2 {  
+    g8 bes d g
+    f16 es d c bes a g fis 
+  }
   c'16 bes a es' d c bes a 
-  g2 g'8
+  g4 g'
   
   \bar "|."
   
@@ -103,14 +105,14 @@ bron_llon_chords = \chordmode {
   
   g2:m d:m 
   es f4 d
-  g2:m  f4 c 
-  b4 f b d:7
-  b4 d:7 g2:m 
+  g2:m  bes4 c 
+  bes4 f d d:7
+  bes4 d:7 g2:m 
   
-  g2:m d b f4 d c2 d4 g:m
+  g2:m d bes f4 d c2 d4 g:m
   
-  g2:m d
-  g2:m c4:m d c4:m d g2:m
+  g2:m c4:m d
+  g2:m f4 d c4:m d g2:m
   
 }
 
