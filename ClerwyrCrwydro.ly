@@ -15,6 +15,7 @@
 \include "Alawon/david-davis.ly"
 \include "Alawon/disgfyd.ly"
 \include "Alawon/dwy-gwanwyn.ly"
+\include "Alawon/ende.ly"
 \include "Alawon/ffawydden.ly"
 \include "Alawon/hen-chwedl.ly"
 \include "Alawon/igam-ogam.ly"
@@ -170,7 +171,7 @@
     title = "Alawon Ffug Clerwyr Crwydro"
     subtitle = "Zmyślone Melodie Zbłąkanych Muzykantów"
     copyright = "copyleft"
-    tagline = "Drafft - Alawon Ffug Clerwyr Crwydro. Fersiwn 2019-11-10."
+    tagline = "Drafft - Alawon Ffug Clerwyr Crwydro. Fersiwn 2019-11-11."
   }
  
   \bookpart {
@@ -225,7 +226,7 @@
     \bore_mercher_ail 	\pageBreak
     
     \cwiafiac		\pageBreak 
-    
+    \ende		\pageBreak
     \nos_da 		\pageBreak
     
     \organ_dro 		\pageBreak
