@@ -37,9 +37,7 @@ ende_melody = \relative g' {
   c4 bes? a 
   g f es 
   d c bes
-  a g fis 
-  
-  g2. ~ g
+  b a g
   
   \bar "||"
   
@@ -52,7 +50,7 @@ ende_melody = \relative g' {
   
   f4 f g 
   as4 c, f
-  es4 f es 
+  es4. f8 es4 
   d4 c bes
   
   g4 c d 
@@ -60,29 +58,33 @@ ende_melody = \relative g' {
   g'2 c,4 
   es4 d2
   as4 c d 
-  es4 es f 
+  es4 es4. f8
   d2. ~ 
-  d2.
+  d2 as4
 
-  g,4 c d 
+  g4 c d 
   es d c 
   g'2 c,4
-  g'4 c,2
-  as'4 f g 
+  g'2.
+  as4 f g 
   as4 c as 
   g2 as8 g 
   f2. 
   
-  f4 es f 
+  g4 es f 
   d2 g,4
   es'4 d es 
   c2. 
   
-  \bar "||"
   
-  g4 a bes
+  
+  g4 as bes
   c d es 
   f g as 
+  g a es
+  
+  \bar "||"
+  
   g a b
   
   c2. ~ 
@@ -94,6 +96,8 @@ ende_melody = \relative g' {
 }
 
 ende_chords = \chordmode {
+  s4.
+  
   c2.:m 
   c:m 
   bes 
@@ -109,9 +113,7 @@ ende_chords = \chordmode {
   c:m 
   es
   f
-  d
-  g:m 
-  g:m 
+  g
   
   c2.:m 
   c:m 
@@ -148,6 +150,12 @@ ende_chords = \chordmode {
   es
   c:m 
   
+  f2.:m 
+  es 
+  as
+  g
+  
+  c:m c:m
   
 }
 
