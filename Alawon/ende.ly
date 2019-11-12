@@ -1,4 +1,6 @@
 % 2019-11-11
+% Mr Ende
+% The Neverending Story
 
 ende_teitl = "Mr Ende"
 ende_tytul = "Pan Ende"
@@ -14,6 +16,8 @@ ende_melody = \relative g' {
   
   g8 a bes 
   \repeat volta 2 {
+    \once \override Score.RehearsalMark.font-size = #5
+    \mark \markup { \musicglyph #"scripts.segno" }
     c4 c8 bes c d 
     es4 es8 d es f 
     es4 d4. c8 
@@ -28,16 +32,14 @@ ende_melody = \relative g' {
     }
     { 
        g'4 c,4. g'8 
-       g2 g4
-       
+       g2 g4  
     }
   }
   
-  \bar "||"
   c4 bes? a 
   g f es 
   d c bes
-  b a g
+  a g8 g a bes_"D.S."
   
   \bar "||"
   
@@ -50,7 +52,7 @@ ende_melody = \relative g' {
   
   f4 f g 
   as4 c, f
-  es4. f8 es4 
+  es4 f es
   d4 c bes
   
   g4 c d 
@@ -58,7 +60,7 @@ ende_melody = \relative g' {
   g'2 c,4 
   es4 d2
   as4 c d 
-  es4 es4. f8
+  es4 es f
   d2. ~ 
   d2 as4
 
@@ -80,11 +82,7 @@ ende_melody = \relative g' {
   
   g4 as bes
   c d es 
-  f g as 
-  g a es
-  
-  \bar "||"
-  
+  f g as   
   g a b
   
   c2. ~ 
@@ -113,7 +111,7 @@ ende_chords = \chordmode {
   c:m 
   es
   f
-  g
+  g:m
   
   c2.:m 
   c:m 
