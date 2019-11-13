@@ -15,9 +15,8 @@ ende_melody = \relative g' {
   \ende_common 
   
   g8 a bes 
+  \bar "[|:"
   \repeat volta 2 {
-    \once \override Score.RehearsalMark.font-size = #5
-    \mark \markup { \musicglyph #"scripts.segno" }
     c4 c8 bes c d 
     es4 es8 d es f 
     es4 d4. c8 
@@ -39,9 +38,9 @@ ende_melody = \relative g' {
   c4 bes? a 
   g f es 
   d c bes
-  a g8 g a bes_"D.S."
+  a g8 g a bes
   
-  \bar "||"
+  \bar ":|]"
   
   \key c \minor 
   
@@ -62,7 +61,7 @@ ende_melody = \relative g' {
   as4 c d 
   es4 es f
   d2. ~ 
-  d2 as4
+  d4 r as4
 
   g4 c d 
   es d c 
@@ -73,7 +72,7 @@ ende_melody = \relative g' {
   g2 as8 g 
   f2. 
   
-  g4 es f 
+  f4 es f 
   d2 g,4
   es'4 d es 
   c2. 
@@ -144,13 +143,13 @@ ende_chords = \chordmode {
   bes
   
   as
+  g:m
   bes
-  es
   c:m 
   
   f2.:m 
-  es 
   as
+  des 
   g
   
   c:m c:m
