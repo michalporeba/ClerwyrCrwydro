@@ -21,6 +21,7 @@
     \pageBreak
     
     \farandula		\pageBreak
+    \farandula_in_b	\pageBreak
 
     
   } %bookpart

@@ -44,11 +44,18 @@
     scoreTitleMarkup = \markup {
       \fill-line {
         \left-column {
-          \vspace #0.75
-          \left-column { 
-            \line{ \fontsize #5 \override #'(font-name . "FoglihtenNo07") \fromproperty #'header:teitl } 
-            \line{ \fontsize #4 \override #'(font-name . "FoglihtenNo04") \bold \fromproperty #'header:tytul } }
-          \vspace #0.75
+          \vspace #1.00
+          \line {
+            
+            \column { \rounded-box \pad-markup #1 { \line { \huge { \bold { \fromproperty #'header:key } } } } }
+            \column {
+              \vspace #-0.25
+              \left-column { 
+                \line{ \fontsize #5 \override #'(font-name . "FoglihtenNo07") \fromproperty #'header:teitl } 
+                \line{ \fontsize #4 \override #'(font-name . "FoglihtenNo04") \bold \fromproperty #'header:tytul } }
+              \vspace #0.75
+            }
+          }
         }
         \right-column {  
           \vspace #1
