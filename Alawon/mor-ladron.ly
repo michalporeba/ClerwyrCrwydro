@@ -95,3 +95,18 @@ morladron = \score {
     \new Staff { \morladron_melody }
   >>
 } %score
+
+morladron_in_b = \score {
+  \header { 
+    teitl = \morladron_teitl
+    tytul = \morladron_tytul
+    key = \markup { "B" \flat }
+  }
+  
+  \transpose c d { 
+    <<
+      \new ChordNames { \morladron_chords }
+      \new Staff { \morladron_melody }
+    >>
+  }
+} %score

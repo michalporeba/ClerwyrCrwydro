@@ -148,3 +148,18 @@ rwmba = \score {
     \new Staff { \rwmba_melody }
   >>
 } %score
+
+rwmba_in_b = \score {
+  \header { 
+    teitl = \rwmba_teitl
+    tytul = \rwmba_tytul
+    key = \markup { "B" \flat }
+  }
+  
+  \transpose c d { 
+    <<
+      \new ChordNames { \rwmba_chords }
+      \new Staff { \rwmba_melody }
+    >>
+  }
+} %score

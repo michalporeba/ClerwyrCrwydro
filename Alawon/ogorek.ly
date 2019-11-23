@@ -74,3 +74,18 @@ ogorek = \score {
     \new Staff { \ogorek_melody }
   >>
 } %score
+
+ogorek_in_b = \score {
+  \header { 
+    teitl = \ogorek_teitl
+    tytul = \ogorek_tytul
+    key = \markup { "B" \flat }
+  }
+  
+  \transpose c d { 
+    <<
+      \new ChordNames { \ogorek_chords }
+      \new Staff { \ogorek_melody }
+    >>
+  }
+} %score

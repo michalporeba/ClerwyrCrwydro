@@ -189,7 +189,20 @@ bore_mercher = \score {
     >>
   } %score
   
-
+bore_mercher_in_b = \score {
+  \header { 
+    teitl = \bore_mercher_teitl
+    tytul = \bore_mercher_tytul
+    key = \markup { "B" \flat }
+  }
+  
+  \transpose c d { 
+    <<
+      \new ChordNames { \bore_mercher_chords }
+      \new Staff { \bore_mercher_melody }
+    >>
+  }
+} %score
   
 bore_mercher_ail = \score {
     \header { 
@@ -202,6 +215,21 @@ bore_mercher_ail = \score {
       \new Staff { \bore_mercher_ail_melody }
     >>
   } %score
+
+bore_mercher_ail_in_b = \score {
+  \header { 
+    teitl = \bore_mercher_ail_teitl
+    tytul = \bore_mercher_ail_tytul
+    key = \markup { "B" \flat }
+  }
+  
+  \transpose c d { 
+    <<
+      \new ChordNames { \bore_mercher_chords }
+      \new Staff { \bore_mercher_ail_melody }
+    >>
+  }
+} %score
 
 bore_mercher_accordion = \score {
   \header {

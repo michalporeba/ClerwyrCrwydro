@@ -44,7 +44,7 @@
     scoreTitleMarkup = \markup {
       \fill-line {
         \left-column {
-          \vspace #1.00
+          \vspace #0.75
           \line {
             
             \column { \rounded-box \pad-markup #1 { \line { \huge { \bold { \fromproperty #'header:key } } } } }
@@ -69,15 +69,15 @@
       \column {
         \fill-line {
           \right-column {
-            \vspace #0.5
+            \vspace #0.25
             \with-color #grey
             \typewriter
             \fromproperty #'header:tagline
           }
           \left-column { 
-            \vspace #0.5
+            \vspace #0.25
             \bold \on-the-fly \not-first-page \skip-page-number-range #'(0 0)
-            \vspace #1
+            \vspace #0.75
           }
           
         }
@@ -88,15 +88,15 @@
       \column {
         \fill-line {
           \left-column {
-            \vspace #0.5
+            \vspace #0.25
             \with-color #grey
             \typewriter
             \fromproperty #'header:tagline
           }
           \right-column { 
-            \vspace #0.5
+            \vspace #0.25
             \bold \on-the-fly \not-first-page \skip-page-number-range #'(0 0)
-            \vspace #1
+            \vspace #0.75
           }
         }
       }

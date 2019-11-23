@@ -98,3 +98,18 @@ polcar_haf = \score {
     \new Staff { \polcar_haf_melody }
   >>
 } %score
+
+polcar_haf_in_b = \score {
+  \header { 
+    teitl = \polcar_haf_teitl
+    tytul = \polcar_haf_tytul
+    key = \markup { "B" \flat }
+  }
+  
+  \transpose c d { 
+    <<
+      \new ChordNames { \polcar_haf_chords }
+      \new Staff { \polcar_haf_melody }
+    >>
+  }
+} %score

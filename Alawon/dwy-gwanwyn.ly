@@ -112,3 +112,18 @@ dwy_gwanwyn = \score {
     \new Staff { \dwy_gwanwyn_melody }
   >>
 } %score
+
+dwy_gwanwyn_in_b = \score {
+  \header { 
+    teitl = \dwy_gwanwyn_teitl
+    tytul = \dwy_gwanwyn_tytul
+    key = \markup { "B" \flat }
+  }
+  
+  \transpose c d { 
+    <<
+      \new ChordNames { \dwy_gwanwyn_chords }
+      \new Staff { \dwy_gwanwyn_melody }
+    >>
+  }
+} %score

@@ -127,3 +127,18 @@ bron_llon = \score {
     \new Staff { \bron_llon_melody }
   >>
 } %score
+
+bron_llon_in_b = \score {
+  \header { 
+    teitl = \bron_llon_teitl
+    tytul = \bron_llon_tytul
+    key = \markup { "B" \flat }
+  }
+  
+  \transpose c d { 
+    <<
+      \new ChordNames { \bron_llon_chords }
+      \new Staff { \bron_llon_melody }
+    >>
+  }
+} %score

@@ -91,3 +91,18 @@ pibdawns_hydrefol = \score {
     \new Staff { \pibdawns_hydrefol_melody }
   >>
 } %score
+
+pibdawns_hydrefol_in_b = \score {
+  \header { 
+    teitl = \pibdawns_hydrefol_teitl
+    tytul = \pibdawns_hydrefol_tytul
+    key = \markup { "B" \flat }
+  }
+  
+  \transpose c d { 
+    <<
+      \new ChordNames { \pibdawns_hydrefol_chords }
+      \new Staff { \pibdawns_hydrefol_melody }
+    >>
+  }
+} %score

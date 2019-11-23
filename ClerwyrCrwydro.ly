@@ -102,6 +102,19 @@
     \markup { " " }
     \pageBreak 
     
+    \brenin_jacob_in_b  	\pageBreak
+    \bron_llon_in_b 		\pageBreak
+    \dagrau_robin_in_b		\pageBreak
+    \dwy_gwanwyn_in_b		\pageBreak
+    \hen_chwedl_in_b		\pageBreak
+    \morladron_in_b		\pageBreak
+    \ogorek_in_b		\pageBreak
+    \polcar_haf_in_b		\pageBreak
+    \rwmba_in_b			\pageBreak
+    \lindysyn_in_b		\pageBreak
+    \pibdawns_hydrefol_in_b	\pageBreak
+    \bore_mercher_in_b		\pageBreak
+    \bore_mercher_ail_in_b	\pageBreak
     \farandula_in_b
     
   } %bookpart

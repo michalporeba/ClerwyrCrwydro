@@ -88,3 +88,17 @@ lindysyn = \score {
   >>
 } %score
 
+lindysyn_in_b = \score {
+  \header { 
+    teitl = \lindysyn_teitl
+    tytul = \lindysyn_tytul
+    key = \markup { "B" \flat }
+  }
+  
+  \transpose c d { 
+    <<
+      \new ChordNames { \lindysyn_chords }
+      \new Staff { \lindysyn_melody }
+    >>
+  }
+} %score

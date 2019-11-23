@@ -123,3 +123,19 @@ hen_chwedl = \score {
     \new Staff { \hen_chwedl_melody }
   >>
 } %score
+
+hen_chwedl_in_b = \score {
+  \header { 
+    teitl = \hen_chwedl_teitl
+    tytul = \hen_chwedl_tytul
+    key = \markup { "B" \flat }
+  }
+  
+  \transpose c d { 
+    <<
+      \new ChordNames { \hen_chwedl_chords }
+      \new Staff { \hen_chwedl_melody }
+    >>
+  }
+} %score
+

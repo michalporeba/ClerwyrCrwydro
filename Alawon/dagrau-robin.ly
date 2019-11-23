@@ -124,3 +124,18 @@ dagrau_robin = \score {
     \new Staff { \dagrau_robin_melody }
   >>
 } %score
+
+dagrau_robin_in_b = \score {
+  \header { 
+    teitl = \dagrau_robin_teitl
+    tytul = \dagrau_robin_tytul
+    key = \markup { "B" \flat }
+  }
+  
+  \transpose c d { 
+    <<
+      \new ChordNames { \dagrau_robin_chords }
+      \new Staff { \dagrau_robin_melody }
+    >>
+  }
+} %score

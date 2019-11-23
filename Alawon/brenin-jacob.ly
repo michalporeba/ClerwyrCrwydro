@@ -95,3 +95,18 @@ brenin_jacob = \score {
     \new Staff { \brenin_jacob_melody }
   >>
 } %score
+
+brenin_jacob_in_b = \score {
+  \header { 
+    teitl = \brenin_jacob_teitl
+    tytul = \brenin_jacob_tytul
+    key = \markup { "B" \flat }
+  }
+  
+  \transpose c d { 
+    <<
+      \new ChordNames { \brenin_jacob_chords }
+      \new Staff { \brenin_jacob_melody }
+    >>
+  }
+} %score
