@@ -91,3 +91,18 @@ pobl_ffol = \score {
     \new Staff { \pobl_ffol_melody }
   >>
 } %score
+
+pobl_ffol_in_b = \score {
+  \header { 
+    teitl = \pobl_ffol_teitl
+    tytul = \pobl_ffol_tytul
+    key = \markup { "B" \flat }
+  }
+  
+  \transpose c d { 
+    <<
+      \new ChordNames { \pobl_ffol_chords }
+      \new Staff { \pobl_ffol_melody }
+    >>
+  }
+} %score

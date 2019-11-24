@@ -137,6 +137,21 @@ organ_dro = \score {
   >>
 } %score
 
+organ_dro_in_b = \score {
+  \header { 
+    teitl = \organ_dro_teitl
+    tytul = \organ_dro_tytul
+    key = \markup { "B" \flat }
+  }
+  
+  \transpose c d { 
+    <<
+      \new ChordNames { \organ_dro_chords }
+      \new Staff { \organ_dro_melody }
+    >>
+  }
+} %score
+
 organ_dro_ail = \score {
   \header { 
     teitl = \organ_dro_ail_teitl
@@ -147,4 +162,19 @@ organ_dro_ail = \score {
     \new ChordNames { \organ_dro_ail_chords }
     \new Staff { \organ_dro_ail_melody }
   >>
+} %score
+
+organ_dro_ail_in_b = \score {
+  \header { 
+    teitl = \organ_dro_teitl
+    tytul = \organ_dro_tytul
+    key = \markup { "B" \flat }
+  }
+  
+  \transpose c d { 
+    <<
+      \new ChordNames { \organ_dro_chords }
+      \new Staff { \organ_dro_ail_melody }
+    >>
+  }
 } %score

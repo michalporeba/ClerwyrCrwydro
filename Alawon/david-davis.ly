@@ -69,3 +69,18 @@ david_davis = \score {
     \new Staff { \david_davis_melody }
   >>
 } %score
+
+david_davis_in_b = \score {
+  \header { 
+    teitl = \david_davis_teitl
+    tytul = \david_davis_tytul
+    key = \markup { "B" \flat }
+  }
+  
+  \transpose c d { 
+    <<
+      \new ChordNames { \david_davis_chords }
+      \new Staff { \david_davis_melody }
+    >>
+  }
+} %score

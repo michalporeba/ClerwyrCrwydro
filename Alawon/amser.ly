@@ -80,3 +80,18 @@ amser = \score {
     \new Staff { \amser_melody }
   >>
 } %score
+
+amser_in_b = \score {
+  \header { 
+    teitl = \amser_teitl
+    tytul = \amser_tytul
+    key = \markup { "B" \flat }
+  }
+  
+  \transpose c d { 
+    <<
+      \new ChordNames { \amser_chords }
+      \new Staff { \amser_melody }
+    >>
+  }
+} %score

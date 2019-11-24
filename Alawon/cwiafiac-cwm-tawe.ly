@@ -139,3 +139,18 @@ cwiafiac = \score {
     \new Staff { \cwiafiac_melody }
   >>
 } %score
+
+cwiafiac_in_b = \score {
+  \header { 
+    teitl = \cwiafiac_teitl
+    tytul = \cwiafiac_tytul
+    key = \markup { "B" \flat }
+  }
+  
+  \transpose c d { 
+    <<
+      \new ChordNames { \cwiafiac_chords }
+      \new Staff { \cwiafiac_melody }
+    >>
+  }
+} %score

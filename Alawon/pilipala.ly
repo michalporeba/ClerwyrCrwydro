@@ -81,3 +81,18 @@ pilipala = \score {
     \new Staff { \pilipala_melody }
   >>
 } %score
+
+pilipala_in_b = \score {
+  \header { 
+    teitl = \pilipala_teitl
+    tytul = \pilipala_tytul
+    key = \markup { "B" \flat }
+  }
+  
+  \transpose c d { 
+    <<
+      \new ChordNames { \pilipala_chords }
+      \new Staff { \pilipala_melody }
+    >>
+  }
+} %score

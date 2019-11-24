@@ -111,3 +111,17 @@ clerwyr_crwydro = \score {
   >>
 } %score
   
+clerwyr_crwydro_in_b = \score {
+  \header { 
+    teitl = \clerwyr_crwydro_teitl
+    tytul = \clerwyr_crwydro_tytul
+    key = \markup { "B" \flat }
+  }
+  
+  \transpose c d { 
+    <<
+      \new ChordNames { \clerwyr_crwydro_chords }
+      \new Staff { \clerwyr_crwydro_melody }
+    >>
+  }
+} %score

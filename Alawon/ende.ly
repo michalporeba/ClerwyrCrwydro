@@ -167,3 +167,18 @@ ende = \score {
     \new Staff { \ende_melody }
   >>
 } %score
+
+ende_in_b = \score {
+  \header { 
+    teitl = \ende_teitl
+    tytul = \ende_tytul
+    key = \markup { "B" \flat }
+  }
+  
+  \transpose c d { 
+    <<
+      \new ChordNames { \ende_chords }
+      \new Staff { \ende_melody }
+    >>
+  }
+} %score

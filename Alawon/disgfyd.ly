@@ -102,3 +102,18 @@ disgfyd = \score {
     \new Staff { \disgfyd_melody }
   >>
 } %score
+
+disgfyd_in_b = \score {
+  \header { 
+    teitl = \disgfyd_teitl
+    tytul = \disgfyd_tytul
+    key = \markup { "B" \flat }
+  }
+  
+  \transpose c d { 
+    <<
+      \new ChordNames { \disgfyd_chords }
+      \new Staff { \disgfyd_melody }
+    >>
+  }
+} %score

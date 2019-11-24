@@ -115,7 +115,26 @@
     \pibdawns_hydrefol_in_b	\pageBreak
     \bore_mercher_in_b		\pageBreak
     \bore_mercher_ail_in_b	\pageBreak
-    \farandula_in_b
+    \cwiafiac_in_b		\pageBreak
+    \ende_in_b			\pageBreak
+    \nos_da_in_b		\pageBreak
+    \organ_dro_in_b		\pageBreak
+    \organ_dro_ail_in_b		\pageBreak
+    \dafydd_in_b		\pageBreak
+    \amser_in_b			\pageBreak
+    \bran_in_b			\pageBreak
+    \david_davis_in_b		\pageBreak 
+    \ffawydden_in_b		\pageBreak
+    \igam_ogam_in_b		\pageBreak
+    \cysgodion_in_b		\pageBreak
+    \antur_newydd_in_b	 	\pageBreak 	
+    \clerwyr_crwydro_in_b 	\pageBreak
+    \cyntaf_in_b 		\pageBreak 
+    \farandula_in_b		\pageBreak
+    \margam_in_b		\pageBreak
+    \pobl_ffol_in_b 		\pageBreak 
+    \disgfyd_in_b		\pageBreak
+    \pilipala_in_b 		\pageBreak 
     
   } %bookpart
 } %book

@@ -113,3 +113,17 @@ antur_newydd = \score {
   >>
 } %score
   
+antur_newydd_in_b = \score {
+  \header { 
+    teitl = \antur_newydd_teitl
+    tytul = \antur_newydd_tytul
+    key = \markup { "B" \flat }
+  }
+  
+  \transpose c d { 
+    <<
+      \new ChordNames { \antur_newydd_chords }
+      \new Staff { \antur_newydd_melody }
+    >>
+  }
+} %score

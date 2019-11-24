@@ -143,3 +143,18 @@ nos_da = \score {
     \new Staff { \nos_da_melody }
   >>
 } %score
+
+nos_da_in_b = \score {
+  \header { 
+    teitl = \nos_da_teitl
+    tytul = \nos_da_tytul
+    key = \markup { "B" \flat }
+  }
+  
+  \transpose c d { 
+    <<
+      \new ChordNames { \nos_da_chords }
+      \new Staff { \nos_da_melody }
+    >>
+  }
+} %score

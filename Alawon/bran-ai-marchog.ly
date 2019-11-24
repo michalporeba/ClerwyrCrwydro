@@ -67,3 +67,18 @@ bran = \score {
     \new Staff { \bran_melody }
   >>
 } %score
+
+bran_in_b = \score {
+  \header { 
+    teitl = \bran_teitl
+    tytul = \bran_tytul
+    key = \markup { "B" \flat }
+  }
+  
+  \transpose c d { 
+    <<
+      \new ChordNames { \bran_chords }
+      \new Staff { \bran_melody }
+    >>
+  }
+} %score

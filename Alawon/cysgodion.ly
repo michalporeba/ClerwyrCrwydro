@@ -81,3 +81,18 @@ cysgodion = \score {
     \new Staff { \cysgodion_melody }
   >>
 } %score
+
+cysgodion_in_b = \score {
+  \header { 
+    teitl = \cysgodion_teitl
+    tytul = \cysgodion_tytul
+    key = \markup { "B" \flat }
+  }
+  
+  \transpose c d { 
+    <<
+      \new ChordNames { \cysgodion_chords }
+      \new Staff { \cysgodion_melody }
+    >>
+  }
+} %score

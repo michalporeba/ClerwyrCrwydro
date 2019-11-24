@@ -76,3 +76,18 @@ igam_ogam = \score {
     \new Staff { \igam_ogam_melody }
   >>
 } %score
+
+igam_ogam_in_b = \score {
+  \header { 
+    teitl = \igam_ogam_teitl
+    tytul = \igam_ogam_tytul
+    key = \markup { "B" \flat }
+  }
+  
+  \transpose c d { 
+    <<
+      \new ChordNames { \igam_ogam_chords }
+      \new Staff { \igam_ogam_melody }
+    >>
+  }
+} %score

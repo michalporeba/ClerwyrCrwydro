@@ -65,3 +65,18 @@ ffawydden = \score {
     \new Staff { \ffawydden_melody }
   >>
 } %score
+
+ffawydden_in_b = \score {
+  \header { 
+    teitl = \ffawydden_teitl
+    tytul = \ffawydden_tytul
+    key = \markup { "B" \flat }
+  }
+  
+  \transpose c d { 
+    <<
+      \new ChordNames { \ffawydden_chords }
+      \new Staff { \ffawydden_melody }
+    >>
+  }
+} %score

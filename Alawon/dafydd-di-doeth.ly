@@ -84,3 +84,18 @@ dafydd = \score {
     \new Staff { \dafydd_melody }
   >>
 } %score
+
+dafydd_in_b = \score {
+  \header { 
+    teitl = \dafydd_teitl
+    tytul = \dafydd_tytul
+    key = \markup { "B" \flat }
+  }
+  
+  \transpose c d { 
+    <<
+      \new ChordNames { \dafydd_chords }
+      \new Staff { \dafydd_melody }
+    >>
+  }
+} %score

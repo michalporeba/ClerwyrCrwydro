@@ -101,3 +101,17 @@ cyntaf = \score {
   >>
 } %score
 
+cyntaf_in_b = \score {
+  \header { 
+    teitl = \cyntaf_teitl
+    tytul = \cyntaf_tytul
+    key = \markup { "B" \flat }
+  }
+  
+  \transpose c d { 
+    <<
+      \new ChordNames { \cyntaf_chords }
+      \new Staff { \cyntaf_melody }
+    >>
+  }
+} %score

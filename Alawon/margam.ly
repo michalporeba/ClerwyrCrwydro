@@ -120,3 +120,18 @@ margam = \score {
     \new Staff { \margam_melody }
   >>
 } %score
+
+margam_in_b = \score {
+  \header { 
+    teitl = \margam_teitl
+    tytul = \margam_tytul
+    key = \markup { "B" \flat }
+  }
+  
+  \transpose c d { 
+    <<
+      \new ChordNames { \margam_chords }
+      \new Staff { \margam_melody }
+    >>
+  }
+} %score
