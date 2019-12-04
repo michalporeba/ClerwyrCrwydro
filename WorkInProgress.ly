@@ -20,8 +20,8 @@
     
     \pageBreak
     
-    \farandula		\pageBreak
-    \farandula_in_b	\pageBreak
+    \boulderhop		\pageBreak
+    \boulderhop_in_b	\pageBreak
 
     
   } %bookpart
