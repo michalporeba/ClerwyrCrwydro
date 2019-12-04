@@ -1,7 +1,7 @@
 % written 2018-08-15
 
-boulderhop_teitl = "Boulderhop"
-boulderhop_tytul = "Boulderhop"
+boulderhop_teitl = "Clogfaenydd"
+boulderhop_tytul = "Głazowiec"
 
 boulderhop_common =  {
   %\compoundMeter #'(10 9 8)
