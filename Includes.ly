@@ -19,6 +19,7 @@
 \include "Alawon/ffawydden.ly"
 \include "Alawon/hen-chwedl.ly"
 \include "Alawon/igam-ogam.ly"
+\include "Alawon/jota_sirgar.ly"
 \include "Alawon/lindysyn.ly"
 \include "Alawon/margam.ly"
 \include "Alawon/mor-ladron.ly"

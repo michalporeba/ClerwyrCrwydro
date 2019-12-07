@@ -23,6 +23,8 @@
     \boulderhop		\pageBreak
     \boulderhop_in_b	\pageBreak
 
+    \jota_sirgar	\pageBreak
+    \jota_sirgar_in_b	\pageBreak
     
   } %bookpart
 } %book

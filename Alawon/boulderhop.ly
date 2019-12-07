@@ -1,4 +1,9 @@
-% written 2018-08-15
+% written 2019-11-19
+% a boulder hop is a dance discovered during a weekend 
+% music retreat Ysgolan with Ceri Rhys Mathews and Julie Murphy
+% the idea to write one has to be attributed to Imogen Gunner
+% and the extra challange to make it reflect both wading and hopping
+% to Jason Lowday
 
 boulderhop_teitl = "Clogfaenydd"
 boulderhop_tytul = "Głazowiec"
