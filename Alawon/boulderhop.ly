@@ -34,6 +34,13 @@ boulderhop_melody = \relative e' {
   
   b8 b a c c a b g d4
   b'8 b a c c a b d4
+  b8 b a c c a b g a d,
+  b'8 b a c c a b c d
+  e8 e d g g d e c g4
+  e'8 e d g g d g a c
+  
+  b8 b a c c a b g d g,
+  b8 b a c c a b g d
   \bar "|."
   
 } %relative   

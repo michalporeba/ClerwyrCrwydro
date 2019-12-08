@@ -16,23 +16,53 @@ jota_sirgar_melody = \relative e' {
   \repeat volta 2 {
      g8 g16 a d,8
      b'16 a b c d a 
-     b8 b16 c a8~
+     b8 \tuplet 3/2 {b16 c d} a8~
      a8 fis16 g a d,
      g8 g16 a b8
      e,8 c'16 b a g
      fis16 g a c b a 
      fis16 g a d, a' d,
      
-     b'8 g16 a b8
-     d,8 b'16 c d b
-     c8 b16 c a8 
-     d,8 fis16 g a c 
-     b8 d b16 a 
-     g16 e c' b a g 
-     fis16 g a d, a' d,
-     c'16 b a d, a' d,
+     b'8 g16 a d,8
+     g8 \tuplet 3/2 {a16 b c d b d }
+     c8 b16 c a8~
+     a8 fis16 g a c 
+     b8 d16 c b a 
+     g16 e c' b  a g 
+  }
+  \alternative {
+    {
+      fis16 g a d, a' d,
+      c'16 b a d, a' d,
+    }
+    {
+      fis16 g a d, b' e,
+      c'16 b a d, b' fis
+    }
   }
   
+  \bar "||"
+  
+  g8 fis16 g e8
+  b'8 a16 b g8
+  g8 fis16 g e8
+  b'8 a16 b g d
+  
+  g8 g16 a fis8 ~
+  d8 g16 a b c
+  a8 a16 b fis d
+  b'16 a b c d b
+  
+  g8 fis16 g e8
+  b'8 a16 b g8
+  
+  s4. s
+  
+  b8 b16 a d8 ~
+  d8 c16 b a g
+  fis16 g a c b a 
+  fis16 g a d, a' d,
+     
   
 } %relative   
 
