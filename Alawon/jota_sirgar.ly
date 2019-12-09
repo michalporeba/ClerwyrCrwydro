@@ -32,36 +32,47 @@ jota_sirgar_melody = \relative e' {
   }
   \alternative {
     {
-      fis16 g a d, a' d,
+      fis16 g a d, b' d,
       c'16 b a d, a' d,
     }
     {
-      fis16 g a d, b' e,
+      fis16 g a d, b' d,
       c'16 b a d, b' fis
     }
   }
   
   \bar "||"
+
+  \repeat volta 2 {
+    g8 fis16 g e8
+    b'8 a16 b g8
+    g8 fis16 g e8
+    b'8 a16 b g d
+    
+    g8 g16 a fis8~
+    d8 g16 a b c
+    a8 a16 b fis d
+    b'16 a b c d b
+    
+    g8 fis16 g e8
+    b'8 a16 b g8~
+    g8 d'16 b a g
+    b16 a g fis e d
+    g8 g16 a fis8~
+    d8 g16 a b g
+  }
+  \alternative {
+    {
+      a16 d, a' c b a 
+      fis16 g a d, b' fis
+    }
+    {
+      a16 b a g fis g 
+      a16 c b a g fis
+    }
+  }
   
-  g8 fis16 g e8
-  b'8 a16 b g8
-  g8 fis16 g e8
-  b'8 a16 b g d
-  
-  g8 g16 a fis8 ~
-  d8 g16 a b c
-  a8 a16 b fis d
-  b'16 a b c d b
-  
-  g8 fis16 g e8
-  b'8 a16 b g8
-  
-  s4. s
-  
-  b8 b16 a d8 ~
-  d8 c16 b a g
-  fis16 g a c b a 
-  fis16 g a d, a' d,
+
   \bar "|."
   
 } %relative   
