@@ -74,6 +74,9 @@
     
     \dafydd		\pageBreak
     
+    % 3/8
+    \jota_sirgar	\pageBreak
+    
     % 4/4
     \amser		\pageBreak
     \bran		\pageBreak
@@ -98,6 +101,9 @@
     % 9/8 +
     \pilipala 		\pageBreak 	% hela'r pili pala
     
+    % 19/8
+    \boulderhop		\pageBreak	
+    
     \pageBreak
     \markup { " " }
     \pageBreak 
@@ -121,6 +127,7 @@
     \organ_dro_in_b		\pageBreak
     \organ_dro_ail_in_b		\pageBreak
     \dafydd_in_b		\pageBreak
+    \jota_sirgar_in_b		\pageBreak
     \amser_in_b			\pageBreak
     \bran_in_b			\pageBreak
     \david_davis_in_b		\pageBreak 
@@ -135,6 +142,7 @@
     \pobl_ffol_in_b 		\pageBreak 
     \disgfyd_in_b		\pageBreak
     \pilipala_in_b 		\pageBreak 
+    \boulderhop_in_b
     
   } %bookpart
 } %book

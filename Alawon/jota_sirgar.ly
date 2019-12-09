@@ -62,7 +62,7 @@ jota_sirgar_melody = \relative e' {
   d8 c16 b a g
   fis16 g a c b a 
   fis16 g a d, a' d,
-     
+  \bar "|."
   
 } %relative   
 
