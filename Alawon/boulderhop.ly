@@ -22,25 +22,44 @@ boulderhop_melody = \relative e' {
 
   \repeat volta 2 {
     g8 g d a' a d, b' g c4
+    b8 b g a a c b g e
+    g8 g d a' a d, b' g c4
     b8 b g a a c b g d
     g8 g e a a d, b' g d'4
     b8 b c a a g fis g a 
     
     g8 g d a' a d, b' g c4
+    b8 b g a a c b g e
+    g8 g d a' a d, b' g c4
     b8 b g a a c b g d8
     g8 g e a a d, b' g d' e
     d8 c b a a c b16 c b a g8
   }
-  
-  b8 b a c c a b g d4
-  b'8 b a c c a b d4
-  b8 b a c c a b g a d,
-  b'8 b a c c a b c d
-  e8 e d g g d e c g4
-  e'8 e d g g d g a c
-  
-  b8 b a c c a b g d g,
-  b8 b a c c a b g d
+  \repeat volta 2 {
+    b8 b a c c a b g d4
+    b'8 b a c c a b d a
+    b8 b a c c a b g d4
+    b'8 b a c c a b c d
+    
+    e8 e d g g d e c g4
+    e'8 e d g g d g a c
+    b8 b a c c a b g d4
+    g8 g d a' a c b g d
+    
+    e8 e d g g d e c g4
+    e'8 e d g g d g a c
+    
+    a8 a b a g fis g4 fis8 e
+    a8 a b a g fis 
+  }
+  \alternative {
+    {
+      g fis8 d
+    }
+    {
+      g d a
+    }
+  }
   \bar "|."
   
 } %relative   
@@ -48,8 +67,21 @@ boulderhop_melody = \relative e' {
 boulderhop_chords = \chordmode {
   \boulderhop_common
   
-  s4
+  g1 g1 g4.
+  g1 g1 g4.
+  c1 c4 a2.:m d4.
   
+  g1 g1 g4.
+  g1 g1 g4.
+  c1 c4 a2.:m d4.
+  
+  g1 g1 g4.
+  g1 g1 g4.
+  c1 c1 c4.
+  g1 g1 g4.
+  c1 c1 c4.
+  d2. c2 d2. c4.
+  c4.
 }
 
 
