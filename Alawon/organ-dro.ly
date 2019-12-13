@@ -3,7 +3,7 @@
 
 organ_dro_teitl = "Organ Dro"
 organ_dro_tytul = "Katarynka"
-organ_dro_ail_teitl = "Organ Dro - Ail Lais"
+organ_dro_ail_teitl = "Organ Dro - y gyfalaw"
 organ_dro_ail_tytul = "Katarynka - Drugi Głos"
 organ_dro_composer = "Iolo Morgannwg II"
 

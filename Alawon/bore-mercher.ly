@@ -1,7 +1,7 @@
 %variables
 
 bore_mercher_teitl = "Bore Mercher"
-bore_mercher_ail_teitl = "Bore Mercher - Ail Lais"
+bore_mercher_ail_teitl = "Bore Mercher - y gyfalaw"
 bore_mercher_tytul = "W Środę Rano"
 bore_mercher_ail_tytul = "W Środę Rano - Drugi Głos"
 bore_mercher_form = "A B A B C A B Coda"
