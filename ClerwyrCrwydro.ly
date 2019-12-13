@@ -11,7 +11,7 @@
     title = "Alawon Ffug Clerwyr Crwydro"
     subtitle = "Zmyślone Melodie Zbłąkanych Muzykantów"
     copyright = "copyleft"
-    tagline = "Drafft - Alawon Ffug Clerwyr Crwydro. Fersiwn 2019-11-18."
+    tagline = "Drafft - Alawon Ffug Clerwyr Crwydro. Fersiwn 2019-12-13."
   }
  
   \bookpart {
@@ -53,7 +53,7 @@
     \dwy_gwanwyn	\pageBreak
     \hen_chwedl		\pageBreak 
     \morladron  	\pageBreak
-    \ogorek		\pageBreak
+    %\ogorek		\pageBreak
     \polcar_haf		\pageBreak	% Tra bo'r haf
     \rwmba		\pageBreak
     
@@ -114,7 +114,7 @@
     \dwy_gwanwyn_in_b		\pageBreak
     \hen_chwedl_in_b		\pageBreak
     \morladron_in_b		\pageBreak
-    \ogorek_in_b		\pageBreak
+    %\ogorek_in_b		\pageBreak
     \polcar_haf_in_b		\pageBreak
     \rwmba_in_b			\pageBreak
     \lindysyn_in_b		\pageBreak
