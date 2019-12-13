@@ -1,7 +1,7 @@
 % written 2019-12-06
 
-jota_sirgar_teitl = "Jota Sir Gar"
-jota_sirgar_tytul = "Jota Sir Gar"
+jota_sirgar_teitl = "Xota Sir Gar"
+jota_sirgar_tytul = "Xota Sir Gar"
 
 jota_sirgar_common =  {
   %\compoundMeter #'(10 9 8)
