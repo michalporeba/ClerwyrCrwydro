@@ -26,6 +26,7 @@
 \include "Alawon/nos-da.ly"
 \include "Alawon/ogorek.ly"
 \include "Alawon/organ-dro.ly"
+\include "Alawon/ots.ly"
 \include "Alawon/pibdawns-hydrefol.ly"
 \include "Alawon/pilipala.ly"
 \include "Alawon/pobl-ffol.ly"
