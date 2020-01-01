@@ -16,15 +16,15 @@ jota_sirgar_melody = \relative e' {
   \repeat volta 2 {
      g8 g16 a d,8
      b'16 a b c d a 
-     b8 \tuplet 3/2 {b16 c d} a8~
+     b8 b16  d a8~
      a8 fis16 g a d,
      g8 g16 a b8
      e,8 c'16 b a g
      fis16 g a c b a 
      fis16 g a d, a' d,
      
-     b'8 g16 a d,8
-     g8 \tuplet 3/2 {a16 b c d b d }
+     d'8 b16 a g8~
+     g8 b16 c d b 
      c8 b16 c a8~
      a8 fis16 g a c 
      b8 d16 c b a 
@@ -49,7 +49,7 @@ jota_sirgar_melody = \relative e' {
     g8 fis16 g e8
     b'8 a16 b g d
     
-    g8 g16 a fis8~
+    g8 g16 a fis8
     d8 g16 a b c
     a8 a16 b fis d
     b'16 a b c d b
@@ -58,7 +58,7 @@ jota_sirgar_melody = \relative e' {
     b'8 a16 b g8~
     g8 d'16 b a g
     b16 a g fis e d
-    g8 g16 a fis8~
+    g8 g16 a fis8
     d8 g16 a b g
   }
   \alternative {
@@ -72,6 +72,21 @@ jota_sirgar_melody = \relative e' {
     }
   }
   
+  \bar "||"
+  
+  e16 b' a g fis e 
+  d8 fis16 g a8 
+  b16 e, c' g fis e 
+  d8 fis16 g a8 
+  b16 c b a g a
+  b16 c b a g a
+  b16 c b a g a
+  b16 c b a g d
+  
+  \bar "||"
+  
+  g4.~ g8
+  
 
   \bar "|."
   
@@ -82,9 +97,21 @@ jota_sirgar_chords = \chordmode {
   
   g4. g g d
   g4. a:m d d
-  g4. g a d 
+  g4. g a:m d 
   g4. a:m d d
   
+  d4. d 
+  
+  e4.:m e:m e:m e:m 
+  c4. c d d
+  e4.:m e:m e:m e:m 
+  c4. c d d
+  
+  d4. d
+  
+  c4. d c d
+  c4. d c d
+  g4. 
 }
 
 
