@@ -155,11 +155,11 @@ jota_sirgar_da = \score {
   }
 } %score
 
-jota_sirgar_da_in_c = \score {
+jota_sirgar_da_in_a = \score {
   \header { 
     teitl = \jota_sirgar_teitl
     tytul = \jota_sirgar_tytul
-    key = \markup { "C" }
+    key = \markup { "A" }
   }
   
   \transpose c bes, { 

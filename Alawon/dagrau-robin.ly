@@ -139,3 +139,32 @@ dagrau_robin_in_b = \score {
     >>
   }
 } %score
+
+dagrau_robin_g = \score {
+  \header { 
+    teitl = \dagrau_robin_teitl
+    tytul = \dagrau_robin_tytul
+  }
+  
+  \transpose c f { 
+    <<
+      \new ChordNames { \dagrau_robin_chords }
+      \new Staff { \dagrau_robin_melody }
+    >>
+  }
+} %score
+
+dagrau_robin_g_in_g = \score {
+  \header { 
+    teitl = \dagrau_robin_teitl
+    tytul = \dagrau_robin_tytul
+    key = \markup { "G"  }
+  }
+  
+  \transpose c bes, { 
+    <<
+      \new ChordNames { \dagrau_robin_chords }
+      \new Staff { \dagrau_robin_melody }
+    >>
+  }
+} %score
