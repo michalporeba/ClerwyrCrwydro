@@ -141,4 +141,32 @@ jota_sirgar_in_b = \score {
   }
 } %score
 
+jota_sirgar_da = \score {
+  \header { 
+    teitl = \jota_sirgar_teitl
+    tytul = \jota_sirgar_tytul
+  }
+  
+  \transpose c g, { 
+    <<
+      \new ChordNames { \jota_sirgar_chords }
+      \new Staff { \jota_sirgar_melody }
+    >>
+  }
+} %score
+
+jota_sirgar_da_in_c = \score {
+  \header { 
+    teitl = \jota_sirgar_teitl
+    tytul = \jota_sirgar_tytul
+    key = \markup { "C" }
+  }
+  
+  \transpose c bes, { 
+    <<
+      \new ChordNames { \jota_sirgar_chords }
+      \new Staff { \jota_sirgar_melody }
+    >>
+  }
+} %score
   
