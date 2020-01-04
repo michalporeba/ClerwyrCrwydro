@@ -95,7 +95,7 @@ dagrau_robin_chords = \chordmode {
   
   d2:m 
   g:m 
-  a:m 
+  a 
   d:m 
   
   g2:m 
@@ -110,7 +110,7 @@ dagrau_robin_chords = \chordmode {
   
   d2:m 
   g:m 
-  a:m 
+  a 
   d:m 
 }
 
