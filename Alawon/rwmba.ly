@@ -68,7 +68,7 @@ rwmba_melody = \relative g' {
     { 
       b'16 g fis e b' c b g 
       e16 fis g a g fis e d
-      b4~ b16 \breathe g'16 g fis 
+      b16 d8.~ d16 \breathe g16 g fis 
     }
     { 
       b16 g fis e d c b c 
@@ -79,7 +79,7 @@ rwmba_melody = \relative g' {
       \set Score.repeatCommands = #`((volta #f) (volta ,#{ \markup \text {"2 (tro olaf | ostatni raz)"} #}) end-repeat)
       b'16 g fis e d c b c 
       a16 b c d d e fis a 
-      g8. g,16 g'
+      g8. d16 g,
     }
   }
   
@@ -119,7 +119,7 @@ rwmba_chords = \chordmode {
   
   e2:m 
   b2:m 
-  a4:m d 
+  c4 d 
   g4 e:7
   a4:m d 
   g4 c

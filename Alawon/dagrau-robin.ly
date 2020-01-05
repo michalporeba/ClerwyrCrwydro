@@ -48,20 +48,20 @@ dagrau_robin_melody = \relative d' {
   d8 cis16 bes a8 g 
   c16 d c a g8 f 
   a8 g f e 
-  d2
+  d4 d
   
-  cis8 e g8. e16 
-  d8 f a f 
-  e8 g c8. bes16 
-  a4 cis
+  \repeat volta 2 {
+    cis8 e g8. e16 
+    d8 f a f 
+    e8 g c8. bes16 
+    a4 cis
   
-  d8 c16 bes a8 g 
-  bes8 a f e 
-  f8 e d cis 
-  d2
+    d8 c16 bes a8 g 
+    bes8 a f e 
+    f8 e d cis 
+    d2
+  }
   
-  
-  \bar "|."
 } %relative   
 
 
