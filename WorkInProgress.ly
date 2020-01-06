@@ -29,5 +29,7 @@
     \ogorek 		\pageBreak
     \ogorek_in_b	\pageBreak
     
+    \jota_two		\pageBreak
+    
   } %bookpart
 } %book
