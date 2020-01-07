@@ -1,4 +1,4 @@
-% written 2019-12-06
+% written 2020-01-06
 
 jota_two_teitl = "Xota 2"
 jota_two_tytul = "Xota 2"

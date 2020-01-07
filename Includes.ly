@@ -24,6 +24,7 @@
 \include "Alawon/lindysyn.ly"
 \include "Alawon/margam.ly"
 \include "Alawon/mor-ladron.ly"
+\include "Alawon/muineira.ly"
 \include "Alawon/nos-da.ly"
 \include "Alawon/ogorek.ly"
 \include "Alawon/organ-dro.ly"
