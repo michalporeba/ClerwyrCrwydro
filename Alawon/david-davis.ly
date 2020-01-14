@@ -1,8 +1,8 @@
 % written 2018-08-26
 % Capt. David Davis built a motor boat which he called Cambria and sailed it on the Salt Lake
 
-david_davis_teitl = "Capt. David Davis"
-david_davis_tytul = "Kpt. David Davis"
+david_davis_teitl = "Capt. David L. Davis"
+david_davis_tytul = "Kpt. David L. Davis"
 
 david_davis_common =  {
   \time 4/4
