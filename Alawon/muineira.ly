@@ -20,15 +20,21 @@ muineira_melody = \relative e' {
      g8 fis g a bes c 
      d8 c f e d c
      d4 e8 \tuplet 2/3 { c8 g8 }
-     c8 d bes8~ bes4 a8
+     c8 d bes8~ \tuplet 2/3 { bes8 a }
      bes8 g a bes c d
      e8 c f e d c
      
-     \tuplet 4/3 { g'8 f e d } g,8 e' c
+     g'8 f e g,8 e' c
      
      
-     fis8 d e c bes a
+     a d e c bes a
+     g8 fis g a bes c 
+     d8 c f e d c
+     bes4 c a 
+     g2. 
   }
+  
+  g'4. f8 e c
 
   \bar "|."
   
@@ -39,8 +45,8 @@ muineira_chords = \chordmode {
   
   g2.:m c g:m f
   g2.:m c g:m f
-  g2. c bes f
-  g2. c bes2 c4 d2.
+  g2.:m c bes f
+  g2.:m c bes2 c4 d2.
   
   g4. g g g 
   f4. f f f
