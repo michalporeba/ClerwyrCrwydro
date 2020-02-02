@@ -1,4 +1,7 @@
 % written early 2019-11-05
+% a response to long and very political debate
+% on welsh folc music, and what trac does to it 
+% with gwerin gwallgo and the like 
 
 dagrau_robin_teitl = "Dagrau Robin"
 dagrau_robin_tytul = "Robinie Łzy"
@@ -37,7 +40,7 @@ dagrau_robin_melody = \relative d' {
   
   cis8 e g8. e16 
   d8 f a f 
-  e8 g c8. bes16 
+  e8 g c bes
   a4 cis
   
   d8 c16 bes a8 g 
@@ -53,7 +56,7 @@ dagrau_robin_melody = \relative d' {
   \repeat volta 2 {
     cis8 e g8. e16 
     d8 f a f 
-    e8 g c8. bes16 
+    e8 g c bes
     a4 cis
   
     d8 c16 bes a8 g 
