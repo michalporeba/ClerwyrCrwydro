@@ -53,6 +53,8 @@ jota_two_melody = \relative e' {
     d 16 b a8 g16 g'
     
     e16 g e d c g 
+    \once \override Score.RehearsalMark.font-size = #4
+    \mark \markup { \musicglyph #"scripts.coda" } 
     c d e g e d 
     c g c d e g 
   }
@@ -63,13 +65,14 @@ jota_two_melody = \relative e' {
   }
   
   \bar "|."
-  
+  \once \override Score.RehearsalMark.font-size = #4
+  \mark \markup { \musicglyph #"scripts.coda" } 
   fis16 g c d e g
   fis,16 g a b c d 
   a b c d e fis
   
-  
-  g16 d b8 \tuplet 3/2 { a16 b a } 
+  \bar "||"
+  g16 d b8 \tuplet 3/2 { a16 b a }   
   g4. ~
   g8
 
