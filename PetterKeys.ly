@@ -16,6 +16,9 @@
   \bookpart {
     \pageBreak
     
+    \jota_two			\pageBreak
+    \jota_two_in_b		\pageBreak
+    \jota_two_g			\pageBreak
     
     \jota_sirgar 		\pageBreak
     \jota_sirgar_in_b		\pageBreak

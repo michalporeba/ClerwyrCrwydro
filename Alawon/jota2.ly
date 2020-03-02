@@ -1,7 +1,7 @@
 % written 2020-01-06
 
-jota_two_teitl = "Xota 2"
-jota_two_tytul = "Xota 2"
+jota_two_teitl = "Xota Diog"
+jota_two_tytul = "Leniwa Xota"
 
 jota_two_common =  {
   \time 3/8
@@ -81,7 +81,7 @@ jota_two_melody = \relative e' {
 } %relative   
 
 jota_two_chords = \chordmode {
-  \jota_sirgar_common
+  \jota_two_common
   
   g4. g g g 
   g4. g g g 
@@ -120,6 +120,21 @@ jota_two_in_b = \score {
     <<
       \new ChordNames { \jota_two_chords }
       \new Staff { \jota_two_melody }
+    >>
+  }
+} %score
+
+jota_two_g = \score {
+  \header { 
+    teitl = \jota_two_teitl
+    tytul = \jota_two_tytul
+    key = \markup { "G" }
+  }
+  
+  \transpose c f, { 
+    <<
+      \new ChordNames { \jota_two_chords }
+      \new Staff { \jota_two_melody }  
     >>
   }
 } %score
