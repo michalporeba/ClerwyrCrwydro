@@ -111,7 +111,7 @@ rwmba_chords = \chordmode {
   a4:m d 
   g2 
   c4 d 
-  g4 e
+  g4 e:m
   a4:m d 
   g2 
   a4:m d 
