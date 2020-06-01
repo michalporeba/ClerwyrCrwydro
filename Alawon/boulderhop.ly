@@ -43,11 +43,12 @@ boulderhop_melody = \relative e' {
     
     e8 e d g g d e c g4
     e'8 e d g g d g a c
-    b8 b a c c a b g d4
-    g8 g d a' a c b g d
     
-    e8 e d g g d e c g4
-    e'8 e d g g d g a c
+    b8 b a d d a b a g4
+    a8 a g b b g fis g a
+    
+    b8 b a c c a b g d4
+    e8 e d g g d e fis g
     
     a8 a b a g fis g4 fis8 e
     a8 a b a g fis 
@@ -78,8 +79,8 @@ boulderhop_chords = \chordmode {
   g1 g1 g4.
   g1 g1 g4.
   c1 c1 c4.
-  g1 g1 g4.
-  c1 c1 c4.
+  b2.:m e2:m a2.:m d4.
+  g2. g2 c2. c4.
   d2. c2 d2. c4.
   c4.
 }
