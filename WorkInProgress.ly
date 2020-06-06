@@ -20,16 +20,16 @@
     
     \pageBreak
     
-    \ots		\pageBreak 
-    \ots_in_b		\pageBreak
+    %\ots		\pageBreak 
+    %\ots_in_b		\pageBreak
     
     \boulderhop		\pageBreak
     \boulderhop_in_b	\pageBreak
 
-    \ogorek 		\pageBreak
-    \ogorek_in_b	\pageBreak
+    %\ogorek 		\pageBreak
+    %\ogorek_in_b	\pageBreak
     
-    \muineira		\pageBreak
+    %\muineira		\pageBreak
     
   } %bookpart
 } %book
