@@ -1,4 +1,4 @@
-% written early 2017?
+% written early 2019?
 
 rwmba_teitl = "Rwmba"
 rwmba_tytul = "Rumba"
