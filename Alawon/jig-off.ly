@@ -20,13 +20,20 @@ jig_off_melody = \relative b' {
     d'8 a fis d \breathe e fis
     g8 d' b e c g'
     fis8 g fis d4 b16 c
-    d8 b g e' c g 
-    d'8 a fis d e fis
-    g8 c b a4 g8
   }
   \alternative {
-    { g4.~ g4 b16 c }
-    { g4.~ g4 fis16 g }
+    { 
+      d8 b g e' c g 
+      d'8 a fis d e fis
+      g8 c b a4 g8
+      g4.~ g4 b16 c 
+    }
+    { 
+      d8 b g e' c g'
+      fis8 g fis d4 b16 c 
+      d8 c b a4 g8 
+      g4.~ g4 fis16 g 
+    }
   }
   
   \bar "||"
@@ -45,8 +52,8 @@ jig_off_melody = \relative b' {
   bes8 a fis d \breathe es fis
   g8 d' bes es c g'
   fis8 g fis d4 bes16 c 
-  d8 bes g es' d c 
-  bes8 a fis d es fis
+  d8 bes g es' c bes
+  a8 g fis d es fis
   g8 c bes a4 g8 
   g4.~ g4
   \bar "|."
@@ -55,7 +62,26 @@ jig_off_melody = \relative b' {
 
 jig_off_chords = \chordmode {
   \jig_off_common
+  s8
+  g4. c d2. 
+  g4. c d2. 
+  g4. c d2. 
+  c4. d g2. 
   
+  \once \set chordChanges = ##f
+  g4. c a:m b:m
+  c4. d g2. 
+  
+  d4. bes f/a c/g
+  d4. bes f/a c/g
+  d4. bes f/a c/g
+  
+  g4.:m g:m/bes d/a d/fis
+  
+  g4.:m c:m d2. 
+  g4.:m c:m d2. 
+  g4.:m c:m d2. 
+  c4.:m d g4.:m g4:m
   
 }
 
