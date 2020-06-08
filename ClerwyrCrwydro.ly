@@ -11,7 +11,7 @@
     title = "Alawon Ffug Clerwyr Crwydro"
     subtitle = "Zmyślone Melodie Zbłąkanych Muzykantów"
     copyright = "copyleft"
-    tagline = "Drafft - Alawon Ffug Clerwyr Crwydro. Fersiwn 2020-06-01."
+    tagline = "Drafft - Alawon Ffug Clerwyr Crwydro. Fersiwn 2020-06-08."
   }
  
   \bookpart {
@@ -90,6 +90,7 @@
     
     % 6/8
     \antur_newydd 	\pageBreak 	
+    \jig_off		\pageBreak	% cer i jigio
     \clerwyr_crwydro 	\pageBreak
     \cyntaf 		\pageBreak 	% chwibanau a chlochau
     \farandula		\pageBreak
@@ -136,7 +137,8 @@
     \ffawydden_in_b		\pageBreak
     \igam_ogam_in_b		\pageBreak
     \cysgodion_in_b		\pageBreak
-    \antur_newydd_in_b	 	\pageBreak 	
+    \antur_newydd_in_b	 	\pageBreak 
+    \jig_off_in_b		\pageBreak
     \clerwyr_crwydro_in_b 	\pageBreak
     \cyntaf_in_b 		\pageBreak 
     \farandula_in_b		\pageBreak

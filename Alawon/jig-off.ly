@@ -1,7 +1,7 @@
 % written 2020-04-23 - 06-07
 
 
-jig_off_teitl = "Jig off of me"
+jig_off_teitl = "Cer i jigio"
 jig_off_tytul = "Weź się odtańcuj"
 
 jig_off_common =  {
