@@ -51,7 +51,7 @@ ffawydden_chords = \chordmode {
   es2 f g1:m
   es2 f g1
   c2:m f d g:m 
-  es f g:sus2 g
+  es f g:sus2 g4
   
 }
 
