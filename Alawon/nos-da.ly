@@ -93,7 +93,7 @@ nos_da_chords = \chordmode {
   
   f2. es 
   bes2. bes
-  bes2.:dim7 bes:dim7
+  g2.:dim7 g:dim7
   
   f2. f 
   bes2. bes
@@ -110,7 +110,7 @@ nos_da_chords = \chordmode {
   f2.:m f2.:m 
   bes2.:m es 
   as2. des 
-  bes2.:m c
+  bes2.:m c:m
   
   des2.
   es2. c
