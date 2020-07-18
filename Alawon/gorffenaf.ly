@@ -1,0 +1,81 @@
+% written 2020-07-15
+
+gorffenaf_teitl = "Gorffenaf"
+gorffenaf_tytul = "Lipiec"
+
+gorffenaf_common =  {
+  \time 2/4
+  \clef treble 
+  \key g \minor
+  \partial 8.
+}
+
+gorffenaf_melody = \relative d' {
+  \gorffenaf_common 
+
+  d16 g a
+  \repeat volta 2 {
+    bes8. a16 g8 d'
+    es8 c4 a16 g 
+    f4 f'16 d es c 
+    d4 r16 d, g a 
+    bes8. a16 g8 d' 
+    d8 c4 bes8 
+    a8. bes16 a8 g
+    fis4 r16 d g a
+    bes8. a16 g8 d'
+    g8 c,4 bes8 
+    a8 a16 g f8 f'16 c 
+    d16 es d c bes c bes a 
+    g8. d16 bes'8 d 
+    d8 c4 bes8 
+  }
+  \alternative {
+    { 
+      a8 a16 bes a8 g 
+      g8 fis r16 d g a
+    }
+    { 
+      a8 a16 bes a8 fis 
+      g4 
+    }
+  }
+  
+  \bar "||"
+   s4
+  \bar "|."
+  
+} %relative   
+
+gorffenaf_chords = \chordmode {
+  \gorffenaf_common
+
+  
+}
+
+
+gorffenaf = \score {
+  \header { 
+    teitl = \gorffenaf_teitl
+    tytul = \gorffenaf_tytul
+  }
+  <<
+    \new ChordNames { \gorffenaf_chords }
+    \new Staff { \gorffenaf_melody }
+  >>
+} %score
+  
+gorffenaf_in_b = \score {
+  \header { 
+    teitl = \gorffenaf_teitl
+    tytul = \gorffenaf_tytul
+    key = \markup { "B" \flat }
+  }
+  
+  \transpose c d { 
+    <<
+      \new ChordNames { \gorffenaf_chords }
+      \new Staff { \gorffenaf_melody }
+    >>
+  }
+} %score

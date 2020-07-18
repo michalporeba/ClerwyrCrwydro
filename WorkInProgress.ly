@@ -17,11 +17,10 @@
   \bookpart {
     \pageBreak
     
+    \gorffenaf
+    \gorffenaf_in_b
     
     \pageBreak
-    
-    \jig_off		\pageBreak
-    \jig_off_in_b	\pageBreak
     
     \ots		\pageBreak 
     \ots_in_b		\pageBreak

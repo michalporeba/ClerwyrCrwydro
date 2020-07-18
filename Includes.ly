@@ -17,6 +17,7 @@
 \include "Alawon/ende.ly"
 \include "Alawon/farandula.ly"
 \include "Alawon/ffawydden.ly"
+\include "Alawon/gorffenaf.ly"
 \include "Alawon/hen-chwedl.ly"
 \include "Alawon/igam-ogam.ly"
 \include "Alawon/jig-off.ly"
