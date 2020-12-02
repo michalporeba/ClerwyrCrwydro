@@ -21,7 +21,7 @@ gorffenaf_melody = \relative d' {
     d4 r16 d, g a 
     bes8. a16 g8 d' 
     d8 c4 bes8 
-    a8. bes16 a8 g
+    c8. bes16 a8 g
     fis4 r16 d g a
     bes8. a16 g8 d'
     g8 c,4 bes8 
@@ -37,12 +37,20 @@ gorffenaf_melody = \relative d' {
     }
     { 
       a8 a16 bes a8 fis 
-      g4 
+      g4 r
     }
   }
   
   \bar "||"
-   s4
+    d'8. es16 d8 c
+    d g,4.
+    c8. d16 c8 bes
+    a2
+    
+    d8. es16 d8 es
+    g8 f4 es8
+    d8. c16 bes8 g
+    f2
   \bar "|."
   
 } %relative   
