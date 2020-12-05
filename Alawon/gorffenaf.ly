@@ -22,7 +22,7 @@ gorffenaf_melody = \relative d' {
     bes8. a16 g8 d' 
     d8 c4 bes8 
     c8. bes16 a8 g
-    fis4 r16 d g a
+    a4 r16 d, g a
     bes8. a16 g8 d'
     g8 c,4 bes8 
     a8 a16 g f8 f'16 c 
@@ -32,8 +32,8 @@ gorffenaf_melody = \relative d' {
   }
   \alternative {
     { 
-      a8 a16 bes a8 g 
-      g8 fis r16 d g a
+      a8 a16 bes a bes a bes 
+      a4 r16 d, g a
     }
     { 
       a8 a16 bes a8 fis 
@@ -58,7 +58,11 @@ gorffenaf_melody = \relative d' {
 gorffenaf_chords = \chordmode {
   \gorffenaf_common
 
-  
+  s8.
+  g2:m c:m
+  f bes4 d
+  g2:m c:m
+  f d
 }
 
 
