@@ -16,13 +16,13 @@ pibdawns_hydrefol_melody = \relative d' {
   \tempo \markup {
     \concat {
       
-      \smaller \general-align #Y #DOWN \note #"8" #0.75
+      \smaller \general-align #Y #DOWN \note {8} #0.75
       " "
-      \smaller \general-align #Y #DOWN \note #"8" #0.75
+      \smaller \general-align #Y #DOWN \note {8} #0.75
       " = "
-      \smaller \general-align #Y #DOWN \note #"8." #0.75
+      \smaller \general-align #Y #DOWN \note {8.} #0.75
       " "
-      \smaller \general-align #Y #DOWN \note #"16" #0.75
+      \smaller \general-align #Y #DOWN \note {16} #0.75
       
     }
   }
