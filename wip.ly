@@ -7,6 +7,7 @@
 \include "PaperSetup.ly"
 
 \pageBreak  
-\jota_sirgar \pageBreak
-\jota_two \pageBreak
-\jota_two_g
+\plygur_hadau \pageBreak
+%\jota_sirgar \pageBreak
+%\jota_two \pageBreak
+%\jota_two_g

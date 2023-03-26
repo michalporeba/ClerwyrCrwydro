@@ -33,6 +33,7 @@
 \include "Alawon/ots.ly"
 \include "Alawon/pibdawns-hydrefol.ly"
 \include "Alawon/pilipala.ly"
+\include "Alawon/plygur-hadau.ly"
 \include "Alawon/pobl-ffol.ly"
 \include "Alawon/polcar_haf.ly"
 \include "Alawon/rwmba.ly"
