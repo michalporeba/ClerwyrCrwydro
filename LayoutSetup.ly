@@ -8,7 +8,7 @@
 \layout {
   \context {
     \ChordNames
-    \override ChordName #'font-size = #2
+    \override ChordName.font-size = #2
     %\override ChordName #'font-series = #'bold 
    
     chordChanges = ##t
@@ -25,9 +25,9 @@
   
   \context {
     \Staff
-    \override Clef #'font-size = #3
-    \override TimeSignature #'font-size = #4
-    \override KeySignature #'font-size = #4
+    \override Clef.font-size = #3
+    \override TimeSignature.font-size = #4
+    \override KeySignature.font-size = #4
   }
   
   #(layout-set-staff-size 12)

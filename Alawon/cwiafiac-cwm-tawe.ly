@@ -95,7 +95,7 @@ cwiafiac_melody = \relative e'' {
     }
     
     \bar "|."
-    \once \override Score.RehearsalMark #'font-size = #1
+    \once \override Score.RehearsalMark.font-size = #1
     \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
     %\mark \markup{ \italic "D.S. al Fine" } 
 }
