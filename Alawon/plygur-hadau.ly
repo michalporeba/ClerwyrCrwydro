@@ -34,7 +34,6 @@ plygur_hadau_melody = \relative d' {
     }
   }
   
-  \bar "||"
   \repeat volta 2 {
     fis8 g fis a fis fis 
     e8 fis e a4 a,8
@@ -54,7 +53,6 @@ plygur_hadau_melody = \relative d' {
     }
   }
 
-  \bar "||"
   \repeat volta 2 {
     b4 b8 fis4 fis8 
     fis'8 g fis e4 d8 
@@ -82,7 +80,7 @@ plygur_hadau_chords = \chordmode {
   s8
   
   \once \set chordChanges = ##f
-  g4. c a:m b:m
+  %g4. c a:m b:m
   
 }
 
