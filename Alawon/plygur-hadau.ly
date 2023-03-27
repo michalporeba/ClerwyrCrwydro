@@ -22,10 +22,11 @@ plygur_hadau_melody = \relative d' {
     cis8 d e~ e d e 
     fis4 a,8 d4 fis8
     a8 e d d cis d   
+    \break
   }
   \alternative {
     { 
-      d8 b d d b 
+      d8 b d d b d
       cis8 b a g fis e
     }
     { 
@@ -67,7 +68,7 @@ plygur_hadau_melody = \relative d' {
       b4. fis 
     }
     {
-      bes8 a g g fis e
+      bes8 a g g f e
     }
   }
 
@@ -80,6 +81,37 @@ plygur_hadau_chords = \chordmode {
   s8
   
   \once \set chordChanges = ##f
+  d2. 
+  fis:m 
+  g 
+  a
+  d
+  a
+  g
+  a4. a:7
+  g2.
+  a4. a:7
+
+  d2.
+  a
+  g
+  a
+  g
+  fis:m 
+  e:m
+  a4. a:7
+  g4. e:m
+  a fis:m7
+
+  b2.:m
+  b:m
+  fis:m 
+  fis:m 
+  g
+  e:m  
+  a 
+  b:m 
+  g4.:m7 a:7 
   %g4. c a:m b:m
   
 }
