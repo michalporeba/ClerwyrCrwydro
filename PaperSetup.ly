@@ -36,7 +36,7 @@
           \vspace #0.5
           \line { \fontsize #6 \override #'(font-name . "FoglihtenNo04") "Zmyślone Melodie" }
           \vspace #8
-          \line { \fontsize #3 \typewriter { drafft / szkic } }
+          \line { \fontsize #3 \with-color "lightslategrey" \typewriter { drafft / szkic } }
         }
       }
     }
