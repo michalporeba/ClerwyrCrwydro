@@ -99,6 +99,7 @@
     
     % 9/8
     \disgfyd		\pageBreak	% y disgfyd 
+    \plygur_hadau \pageBreak
     
     % 9/8 +
     \pilipala 		\pageBreak 	% hela'r pili pala
@@ -145,6 +146,7 @@
     \margam_in_b		\pageBreak
     \pobl_ffol_in_b 		\pageBreak 
     \disgfyd_in_b		\pageBreak
+    \plygur_hadau_in_b \pageBreak
     \pilipala_in_b 		\pageBreak 
     \boulderhop_in_b
     
