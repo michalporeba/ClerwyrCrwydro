@@ -1,5 +1,6 @@
 \include "Alawon/amser.ly"
 \include "Alawon/antur-newydd.ly"
+\include "Alawon/blodau-copr.ly"
 \include "Alawon/bore-mercher.ly"
 \include "Alawon/bran-ai-marchog.ly"
 \include "Alawon/brenin-jacob.ly"
